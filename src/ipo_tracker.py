@@ -414,7 +414,7 @@ def save_excel(path: Path, rows: list[dict[str, str]]) -> None:
         "M": 14,
         "N": 16,
         "O": 14,
-        "P": 16,
+        "P": 24,
         "Q": 10,
         "R": 10,
         "S": 14,
