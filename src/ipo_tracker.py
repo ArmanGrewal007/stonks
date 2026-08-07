@@ -40,7 +40,7 @@ CSV_COLUMNS = [
     "listing_gain",
     "listing_gain%",
     "source_url",
-    "last_updated_utc",
+    "last_updated_ist",
 ]
 
 
@@ -265,7 +265,7 @@ def recalculate_derived_fields(row: dict[str, str]) -> dict[str, str]:
     return row
 
 
-def normalize_row(item: dict[str, Any], bucket_name: str, now_utc: str) -> dict[str, str]:
+def normalize_row(item: dict[str, Any], bucket_name: str, now_ist: str) -> dict[str, str]:
     total_sub = item.get("total_subs", item.get("total"))
     status = normalize_status(item.get("ipo_status"), bucket_name)
     listing_price = parse_int(item.get("dt_open")) if status == "Listed" else None
@@ -294,7 +294,7 @@ def normalize_row(item: dict[str, Any], bucket_name: str, now_utc: str) -> dict[
         "listing_gain": "",
         "listing_gain%": "",
         "source_url": source_url(item),
-        "last_updated_utc": now_utc,
+        "last_updated_ist": now_ist,
     }
 
 
@@ -434,7 +434,8 @@ def collect_mainboard_rows(payload: dict[str, Any]) -> list[dict[str, str]]:
     ipo_data = payload["props"]["pageProps"]["ipoData"]
     buckets = ["open_Upcoming", "openIpoList", "closedIpo", "listedIpo"]
 
-    now_utc = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+    ist = dt.timezone(dt.timedelta(hours=5, minutes=30))
+    now_ist = dt.datetime.now(ist).strftime("%Y-%m-%d %H:%M:%S")
     collected: dict[str, dict[str, str]] = {}
 
     for bucket in buckets:
@@ -444,7 +445,7 @@ def collect_mainboard_rows(payload: dict[str, Any]) -> list[dict[str, str]]:
         for item in items:
             if str(item.get("ipo_type", "")).strip().lower() != "mainline":
                 continue
-            row = normalize_row(item, bucket, now_utc)
+            row = normalize_row(item, bucket, now_ist)
             key = row_key(row)
             if not key:
                 continue
