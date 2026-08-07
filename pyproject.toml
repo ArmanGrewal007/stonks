@@ -1,0 +1,11 @@
+[project]
+name = "stonks-ipo-tracker"
+version = "0.1.0"
+description = "Mainboard IPO tracker with Excel output"
+requires-python = ">=3.11"
+dependencies = [
+  "openpyxl>=3.1.0,<4.0.0",
+]
+
+[tool.uv]
+package = false
