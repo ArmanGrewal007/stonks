@@ -17,9 +17,9 @@ MONEYCONTROL_IPO_URL = "https://www.moneycontrol.com/ipo/"
 USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
 
 CSV_COLUMNS = [
-    "company_code",
+    # "company_code",
     "company_name",
-    "ipo_type",
+    # "ipo_type", # Mainline for all rows, so not needed in output
     "ipo_status",
     "open_date",
     "close_date",
@@ -28,17 +28,17 @@ CSV_COLUMNS = [
     "lot_size",
     "price_band",
     "invested",
-    "output",
-    "issue_size_rs",
-    "issue_size_cr",
-    "total_subscription",
-    "qib_sub",
-    "nii_sub",
-    "retail_sub",
     "listing_price",
-    "last_price",
+    "output",
+    # "issue_size_rs",
+    # "issue_size_cr",
+    "total_subsc",
+    # "qib_sub",
+    # "nii_sub",
+    # "retail_sub",
+    # "last_price",
     "listing_gain",
-    "listing_gain_percent",
+    "listing_gain%",
     "source_url",
     "last_updated_utc",
 ]
@@ -113,10 +113,10 @@ def fmt_price_band(item: dict[str, Any]) -> str:
     issue_price = parse_float(item.get("issue_price"))
     if low is not None and high is not None:
         if abs(low - high) < 1e-9:
-            return f"{low:.2f}"
-        return f"{low:.2f}-{high:.2f}"
+            return str(int(round(low)))
+        return f"{int(round(low))}-{int(round(high))}"
     if issue_price is not None:
-        return f"{issue_price:.2f}"
+        return str(int(round(issue_price)))
     issue_price_raw = item.get("issue_price")
     return str(issue_price_raw).strip() if issue_price_raw else ""
 
@@ -143,11 +143,11 @@ def source_url(item: dict[str, Any]) -> str:
     return f"https://www.moneycontrol.com/ipo/{raw}"
 
 
-def fmt_optional_float(value: Any) -> str:
-    number = parse_float(value)
+def fmt_optional_int(value: Any) -> str:
+    number = parse_int(value)
     if number is None:
         return ""
-    return f"{number:.2f}"
+    return str(number)
 
 
 def extract_detail_page_fields(url: str) -> dict[str, str]:
@@ -172,9 +172,9 @@ def extract_detail_page_fields(url: str) -> dict[str, str]:
         cleaned = raw_issue_price.replace("₹", "").replace(",", "").strip()
         nums = re.findall(r"\d+(?:\.\d+)?", cleaned)
         if len(nums) >= 2:
-            issue_price = f"{float(nums[0]):.2f}-{float(nums[1]):.2f}"
+            issue_price = f"{int(round(float(nums[0])))}-{int(round(float(nums[1])))}"
         elif len(nums) == 1:
-            issue_price = f"{float(nums[0]):.2f}"
+            issue_price = str(int(round(float(nums[0]))))
 
     lot_size = ""
     if raw_lot_size:
@@ -234,29 +234,31 @@ def parse_price_band_high(price_band: str) -> float | None:
         return None
     if "-" in text:
         parts = text.split("-")
-        return parse_float(parts[-1])
-    return parse_float(text)
+        parsed = parse_int(parts[-1])
+        return float(parsed) if parsed is not None else None
+    parsed = parse_int(text)
+    return float(parsed) if parsed is not None else None
 
 
 def recalculate_derived_fields(row: dict[str, str]) -> dict[str, str]:
-    lot_size = parse_float(row.get("lot_size"))
+    lot_size = parse_int(row.get("lot_size"))
     price_high = parse_price_band_high(row.get("price_band", ""))
-    listing_price = parse_float(row.get("listing_price"))
+    listing_price = parse_int(row.get("listing_price"))
 
     invested = None
     if lot_size is not None and price_high is not None:
         invested = lot_size * price_high
-        row["invested"] = f"{invested:.2f}"
+        row["invested"] = str(int(round(invested)))
     else:
         row["invested"] = ""
 
     if lot_size is not None and listing_price is not None:
         output = lot_size * listing_price
-        row["output"] = f"{output:.2f}"
+        row["output"] = str(int(round(output)))
         if invested not in (None, 0):
             listing_gain = output - invested
-            row["listing_gain"] = f"{listing_gain:.2f}"
-            row["listing_gain_percent"] = f"{(listing_gain / invested) * 100:.2f}"
+            row["listing_gain"] = str(int(round(listing_gain)))
+            row["listing_gain%"] = str(int(round((listing_gain / invested) * 100)))
     else:
         row["output"] = ""
 
@@ -264,19 +266,14 @@ def recalculate_derived_fields(row: dict[str, str]) -> dict[str, str]:
 
 
 def normalize_row(item: dict[str, Any], bucket_name: str, now_utc: str) -> dict[str, str]:
-    issue_size_rs = parse_int(item.get("issue_size"))
-    issue_size_cr = ""
-    if issue_size_rs is not None:
-        issue_size_cr = f"{issue_size_rs / 10000000:.2f}"
-
     total_sub = item.get("total_subs", item.get("total"))
     status = normalize_status(item.get("ipo_status"), bucket_name)
-    listing_price = parse_float(item.get("dt_open")) if status == "Listed" else None
+    listing_price = parse_int(item.get("dt_open")) if status == "Listed" else None
 
     return {
-        "company_code": str(item.get("company_code") or item.get("sc_id") or "").strip(),
+        # "company_code": str(item.get("company_code") or item.get("sc_id") or "").strip(),
         "company_name": str(item.get("company_name") or "").strip(),
-        "ipo_type": str(item.get("ipo_type") or "").strip(),
+        # "ipo_type": str(item.get("ipo_type") or "").strip(),
         "ipo_status": status,
         "open_date": fmt_date(item.get("open_date")),
         "close_date": fmt_date(item.get("close_date")),
@@ -285,23 +282,27 @@ def normalize_row(item: dict[str, Any], bucket_name: str, now_utc: str) -> dict[
         "lot_size": str(parse_int(item.get("lot_size")) or ""),
         "price_band": fmt_price_band(item),
         "invested": "",
+        "listing_price": "" if listing_price is None else str(listing_price),
         "output": "",
-        "issue_size_rs": str(issue_size_rs or ""),
-        "issue_size_cr": issue_size_cr,
-        "total_subscription": fmt_optional_float(total_sub),
-        "qib_sub": fmt_optional_float(item.get("qib")),
-        "nii_sub": fmt_optional_float(item.get("nii")),
-        "retail_sub": fmt_optional_float(item.get("retail")),
-        "listing_price": "" if listing_price is None else f"{listing_price:.2f}",
-        "last_price": fmt_optional_float(item.get("last_price")),
+        # "issue_size_rs": str(issue_size_rs or ""),
+        # "issue_size_cr": issue_size_cr,
+        "total_subsc": fmt_optional_int(total_sub),
+        # "qib_sub": fmt_optional_int(item.get("qib")),
+        # "nii_sub": fmt_optional_int(item.get("nii")),
+        # "retail_sub": fmt_optional_int(item.get("retail")),
+        # "last_price": fmt_optional_int(item.get("last_price")),
         "listing_gain": "",
-        "listing_gain_percent": "",
+        "listing_gain%": "",
         "source_url": source_url(item),
         "last_updated_utc": now_utc,
     }
 
 
 def merge_rows(existing: dict[str, str], incoming: dict[str, str]) -> dict[str, str]:
+    if existing.get("ipo_status", "") == "Listed":
+        # Once a row is listed, keep it frozen.
+        return dict(existing)
+
     merged = dict(existing)
     for key, value in incoming.items():
         if value not in ("", None):
@@ -312,12 +313,18 @@ def merge_rows(existing: dict[str, str], incoming: dict[str, str]) -> dict[str, 
     new_status = incoming.get("ipo_status", "")
     if status_rank.get(new_status, 0) >= status_rank.get(old_status, 0):
         merged["ipo_status"] = new_status
+
+    # Open/Upcoming/Closed rows should not carry listing-time fields.
+    if merged.get("ipo_status", "") != "Listed":
+        merged["listing_price"] = ""
+        merged["output"] = ""
+        merged["listing_gain"] = ""
+        merged["listing_gain%"] = ""
+
     return merged
 
 
 def row_key(row: dict[str, str]) -> str:
-    if row.get("company_code"):
-        return f"code:{row['company_code']}"
     return f"name:{row.get('company_name', '').strip().lower()}"
 
 
@@ -392,22 +399,22 @@ def save_excel(path: Path, rows: list[dict[str, str]]) -> None:
     ws.auto_filter.ref = ws.dimensions
 
     widths = {
-        "A": 14,
-        "B": 34,
-        "C": 12,
-        "D": 12,
-        "E": 14,
-        "F": 14,
-        "G": 16,
+        "A": 34,
+        "B": 14,
+        "C": 16,
+        "D": 16,
+        "E": 16,
+        "F": 16,
+        "G": 11,
         "H": 14,
-        "I": 10,
-        "J": 14,
+        "I": 12,
+        "J": 16,
         "K": 12,
-        "L": 12,
+        "L": 14,
         "M": 14,
-        "N": 12,
+        "N": 16,
         "O": 14,
-        "P": 12,
+        "P": 16,
         "Q": 10,
         "R": 10,
         "S": 14,
@@ -458,12 +465,12 @@ def sort_rows(rows: list[dict[str, str]]) -> list[dict[str, str]]:
         except ValueError:
             return dt.datetime(1900, 1, 1)
 
-    def allot_key(row: dict[str, str]) -> tuple[int, dt.datetime, str]:
-        allot_dt = parse_for_sort(row.get("allotment_date", ""))
-        has_date = 0 if row.get("allotment_date", "") else 1
-        return (has_date, allot_dt, row.get("company_name", ""))
+    def row_sort_key(row: dict[str, str]) -> tuple[int, dt.datetime, str]:
+        listed_dt = parse_for_sort(row.get("listing_date", ""))
+        has_date = 0 if row.get("listing_date", "") else 1
+        return (has_date, listed_dt, row.get("company_name", ""))
 
-    return sorted(rows, key=allot_key)
+    return sorted(rows, key=row_sort_key)
 
 
 def sanitize_dates(rows: list[dict[str, str]]) -> list[dict[str, str]]:
@@ -478,6 +485,42 @@ def sanitize_dates(rows: list[dict[str, str]]) -> list[dict[str, str]]:
                 continue
             if not date_re.match(value):
                 row[field] = ""
+    return rows
+
+
+def sanitize_numeric_columns(rows: list[dict[str, str]]) -> list[dict[str, str]]:
+    int_fields = [
+        "lot_size",
+        "invested",
+        "listing_price",
+        "output",
+        "total_subsc",
+        "listing_gain",
+        "listing_gain%",
+    ]
+
+    for row in rows:
+        price_band = row.get("price_band", "").strip()
+        if price_band:
+            if "-" in price_band:
+                left, right = price_band.split("-", 1)
+                lnum = parse_int(left)
+                rnum = parse_int(right)
+                if lnum is not None and rnum is not None:
+                    row["price_band"] = f"{lnum}-{rnum}"
+            else:
+                num = parse_int(price_band)
+                if num is not None:
+                    row["price_band"] = str(num)
+
+        for field in int_fields:
+            value = row.get(field, "").strip()
+            if not value:
+                row[field] = ""
+                continue
+            num = parse_int(value)
+            row[field] = "" if num is None else str(num)
+
     return rows
 
 
@@ -506,10 +549,13 @@ def run(snapshot_json: Path, output_xlsx: Path) -> int:
         else:
             existing[key] = row
 
-    merged_rows = sanitize_dates(sort_rows(list(existing.values())))
+    visible_rows = [row for row in existing.values() if row.get("ipo_status", "") != "Closed"]
+
+    merged_rows = sanitize_dates(sort_rows(visible_rows))
     merged_rows = enrich_missing_from_detail_pages(merged_rows)
     merged_rows = sort_rows(merged_rows)
     merged_rows = [recalculate_derived_fields(row) for row in merged_rows]
+    merged_rows = sanitize_numeric_columns(merged_rows)
     save_excel(output_xlsx, merged_rows)
     persist_snapshot(snapshot_json, payload)
 
