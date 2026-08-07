@@ -1,0 +1,39 @@
+{
+  "checked_at_utc": "2026-08-07 19:24:14",
+  "results": [
+    {
+      "name": "NSE all-upcoming-issues",
+      "url": "https://www.nseindia.com/api/all-upcoming-issues?category=ipo",
+      "http_code": 200,
+      "ok": true,
+      "latency_ms": 105,
+      "error": "",
+      "records": 7,
+      "missing_fields": [],
+      "notes": "Ready for automation."
+    },
+    {
+      "name": "NSE ipo-current-issue",
+      "url": "https://www.nseindia.com/api/ipo-current-issue",
+      "http_code": 200,
+      "ok": true,
+      "latency_ms": 129,
+      "error": "",
+      "records": 3,
+      "missing_fields": [],
+      "notes": "Ready for automation."
+    },
+    {
+      "name": "Moneycontrol IPO page",
+      "url": "https://www.moneycontrol.com/ipo/",
+      "http_code": 403,
+      "ok": false,
+      "latency_ms": 82,
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "records": null,
+      "missing_fields": [],
+      "notes": "Endpoint not reachable from current network/runtime."
+    }
+  ],
+  "recommendation": "Recommended source: NSE API (stable JSON and required fields present)."
+}

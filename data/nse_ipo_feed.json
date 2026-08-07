@@ -1,0 +1,68 @@
+[
+  {
+    "company_name": "Leap India Limited",
+    "open_date": "07-Aug-2026",
+    "close_date": "11-Aug-2026",
+    "price_band_low": 151,
+    "price_band_high": 159,
+    "apply_price": 159,
+    "status": "Open",
+    "symbol": "LEAP",
+    "source": "NSE_API"
+  },
+  {
+    "company_name": "Technocraft Ventures Limited",
+    "open_date": "07-Aug-2026",
+    "close_date": "11-Aug-2026",
+    "price_band_low": 200,
+    "price_band_high": 212,
+    "apply_price": 212,
+    "status": "Open",
+    "symbol": "TECHNOCRAF",
+    "source": "NSE_API"
+  },
+  {
+    "company_name": "Ardee Industries Limited",
+    "open_date": "05-Aug-2026",
+    "close_date": "07-Aug-2026",
+    "price_band_low": 50,
+    "price_band_high": 53,
+    "apply_price": 53,
+    "status": "Upcoming",
+    "symbol": "ARDEE",
+    "source": "NSE_API"
+  },
+  {
+    "company_name": "Milky Mist Dairy Food Limited",
+    "open_date": "11-Aug-2026",
+    "close_date": "13-Aug-2026",
+    "price_band_low": 133,
+    "price_band_high": 140,
+    "apply_price": 140,
+    "status": "Upcoming",
+    "symbol": "MILKYMIST",
+    "source": "NSE_API"
+  },
+  {
+    "company_name": "Dhoot Transmission Limited",
+    "open_date": "10-Aug-2026",
+    "close_date": "12-Aug-2026",
+    "price_band_low": 829,
+    "price_band_high": 871,
+    "apply_price": 871,
+    "status": "Upcoming",
+    "symbol": "DHOOTTRANS",
+    "source": "NSE_API"
+  },
+  {
+    "company_name": "Molbio Diagnostics Limited",
+    "open_date": "10-Aug-2026",
+    "close_date": "12-Aug-2026",
+    "price_band_low": 768,
+    "price_band_high": 807,
+    "apply_price": 807,
+    "status": "Upcoming",
+    "symbol": "MOLBIO",
+    "source": "NSE_API"
+  }
+]
