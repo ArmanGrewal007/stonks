@@ -551,7 +551,7 @@ def run(snapshot_json: Path, output_xlsx: Path) -> int:
         else:
             existing[key] = row
 
-    visible_rows = [row for row in existing.values() if row.get("ipo_status", "") != "Closed"]
+    visible_rows = [row for row in existing.values()]
 
     merged_rows = sanitize_dates(sort_rows(visible_rows))
     merged_rows = enrich_missing_from_detail_pages(merged_rows)
