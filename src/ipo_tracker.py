@@ -20,6 +20,7 @@ USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
 CSV_COLUMNS = [
     # "company_code",
     "company_name",
+    "got_ipo",
     # "ipo_type", # Mainline for all rows, so not needed in output
     "ipo_status",
     "open_date",
@@ -274,6 +275,7 @@ def normalize_row(item: dict[str, Any], bucket_name: str, now_ist: str) -> dict[
     return {
         # "company_code": str(item.get("company_code") or item.get("sc_id") or "").strip(),
         "company_name": str(item.get("company_name") or "").strip(),
+        "got_ipo": "",
         # "ipo_type": str(item.get("ipo_type") or "").strip(),
         "ipo_status": status,
         "open_date": fmt_date(item.get("open_date")),
@@ -570,7 +572,7 @@ def run(snapshot_json: Path, output_xlsx: Path) -> int:
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Track Mainboard IPOs and update a local CSV")
+    parser = argparse.ArgumentParser(description="Track Mainboard IPOs and update a local Excel file")
     parser.add_argument(
         "--snapshot",
         default="data/source_snapshot.json",

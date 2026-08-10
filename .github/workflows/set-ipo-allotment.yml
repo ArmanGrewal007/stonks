@@ -1,0 +1,56 @@
+name: Set IPO Allotment
+
+on:
+  workflow_dispatch:
+    inputs:
+      company_name:
+        description: Exact company name as in Excel
+        required: true
+        type: string
+      got_ipo:
+        description: yes | no | clear
+        required: true
+        type: choice
+        options:
+          - yes
+          - no
+          - clear
+
+permissions:
+  contents: write
+
+jobs:
+  set_allotment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v4
+
+      - name: Sync dependencies
+        run: uv sync
+
+      - name: Apply allotment update
+        run: |
+          uv run src/set_ipo_allotment.py \
+            --excel data/mainboard_ipos.xlsx \
+            --company "${{ github.event.inputs.company_name }}" \
+            --got-ipo "${{ github.event.inputs.got_ipo }}"
+
+      - name: Refresh web JSON
+        run: uv run src/export_web_data.py
+
+      - name: Commit changes
+        run: |
+          if [ -z "$(git status --porcelain data/mainboard_ipos.xlsx docs/mainboard_ipos_web.json)" ]; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/mainboard_ipos.xlsx docs/mainboard_ipos_web.json
+          git commit -m "chore: set ipo allotment for ${{ github.event.inputs.company_name }}"
+          git push

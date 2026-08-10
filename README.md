@@ -92,3 +92,31 @@ You can also trigger it manually from the Actions tab.
 - This script only keeps `ipo_type == Mainline` records.
 - Rows are append/update only (existing rows are never removed by source disappearance).
 - Sorting is by `allotment_date` ascending.
+
+## GitHub Pages Dashboard + Excel Allotment Updates
+
+This repo now includes a web dashboard in `docs/` and deployment workflow:
+- Dashboard: `docs/index.html`
+- Deploy workflow: `.github/workflows/deploy-pages.yml`
+- Allotment update workflow: `.github/workflows/set-ipo-allotment.yml`
+
+### Enable GitHub Pages
+
+1. Push changes to `main`.
+2. In GitHub repository settings, open **Pages**.
+3. Set source to **GitHub Actions**.
+4. Run `Deploy Dashboard to GitHub Pages` (or wait for push trigger).
+
+### How the company button works
+
+- In the dashboard, each `company_name` is a button.
+- Click it and type one of: `yes`, `no`, `clear`.
+- The dashboard dispatches `set-ipo-allotment.yml`.
+- That workflow updates `got_ipo` in `data/mainboard_ipos.xlsx`, regenerates `docs/mainboard_ipos_web.json`, and commits both files.
+
+### Token required in dashboard
+
+The dashboard needs a GitHub token to dispatch workflows.
+Use a fine-grained token scoped to this repo with:
+- Actions: Read and write
+- Contents: Read and write
