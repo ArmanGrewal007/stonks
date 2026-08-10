@@ -551,7 +551,7 @@ def run(snapshot_json: Path, output_xlsx: Path) -> int:
         if key in existing:
             existing[key] = merge_rows(existing[key], row)
         else:
-            existing[key] = row
+            existing[key] = row 
 
     visible_rows = [row for row in existing.values()]
 
