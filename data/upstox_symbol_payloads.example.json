@@ -1,0 +1,10 @@
+{
+  "LEAP": {
+    "ipo_id": "REPLACE_WITH_UPSTOX_IPO_ID",
+    "category": "IND"
+  },
+  "TECHNOCRAF": {
+    "ipo_id": "REPLACE_WITH_UPSTOX_IPO_ID",
+    "category": "IND"
+  }
+}

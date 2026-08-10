@@ -1,0 +1,54 @@
+{
+  "mode": "execute-mock",
+  "checked_at_local": "2026-08-08 01:00:14",
+  "feed_count": 6,
+  "intent_count": 2,
+  "skipped": [
+    {
+      "symbol": "ARDEE",
+      "company_name": "Ardee Industries Limited",
+      "reason": "status=Upcoming (requires Open)"
+    },
+    {
+      "symbol": "MILKYMIST",
+      "company_name": "Milky Mist Dairy Food Limited",
+      "reason": "status=Upcoming (requires Open)"
+    },
+    {
+      "symbol": "DHOOTTRANS",
+      "company_name": "Dhoot Transmission Limited",
+      "reason": "status=Upcoming (requires Open)"
+    },
+    {
+      "symbol": "MOLBIO",
+      "company_name": "Molbio Diagnostics Limited",
+      "reason": "status=Upcoming (requires Open)"
+    }
+  ],
+  "submitted": [
+    {
+      "ok": true,
+      "broker": "mock",
+      "broker_order_id": "SIM-E5D2D65679",
+      "symbol": "LEAP",
+      "quantity": 94,
+      "price": 159,
+      "invested_amount": 14946,
+      "submitted_at_utc": "2026-08-07 19:30:14"
+    },
+    {
+      "ok": true,
+      "broker": "mock",
+      "broker_order_id": "SIM-9F110FB0DA",
+      "symbol": "TECHNOCRAF",
+      "quantity": 70,
+      "price": 212,
+      "invested_amount": 14840,
+      "submitted_at_utc": "2026-08-07 19:30:14"
+    }
+  ],
+  "notes": [
+    "Dry-run mode is default and safe.",
+    "Live mode requires explicit confirmation and broker credentials."
+  ]
+}

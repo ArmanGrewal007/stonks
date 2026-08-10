@@ -1,0 +1,28 @@
+[
+  {
+    "company_name": "Leap India Limited",
+    "symbol": "LEAP",
+    "status": "Open",
+    "open_date": "07-Aug-2026",
+    "close_date": "11-Aug-2026",
+    "apply_price": 159,
+    "lot_size": 94,
+    "lots": 1,
+    "quantity": 94,
+    "invested_amount": 14946,
+    "upi_id": "demo@upi"
+  },
+  {
+    "company_name": "Technocraft Ventures Limited",
+    "symbol": "TECHNOCRAF",
+    "status": "Open",
+    "open_date": "07-Aug-2026",
+    "close_date": "11-Aug-2026",
+    "apply_price": 212,
+    "lot_size": 70,
+    "lots": 1,
+    "quantity": 70,
+    "invested_amount": 14840,
+    "upi_id": "demo@upi"
+  }
+]
