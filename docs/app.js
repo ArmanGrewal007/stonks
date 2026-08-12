@@ -33,6 +33,26 @@ function formatSubsc(v) {
   return `${text}x`;
 }
 
+function formatDateNoYear(v) {
+  const text = norm(v);
+  if (!text) return "";
+  return text.replace(/,\s*\d{4}$/, "").replace(/\s+\d{4}$/, "");
+}
+
+function applyGotSelectClass(selectEl, rawValue) {
+  const val = norm(rawValue).toLowerCase();
+  selectEl.classList.remove("got-select--yes", "got-select--no", "got-select--na", "got-select--empty");
+  if (val === "yes") {
+    selectEl.classList.add("got-select--yes");
+  } else if (val === "no") {
+    selectEl.classList.add("got-select--no");
+  } else if (val === "na" || val === "n/a") {
+    selectEl.classList.add("got-select--na");
+  } else {
+    selectEl.classList.add("got-select--empty");
+  }
+}
+
 function statusClass(status) {
   const s = norm(status).toLowerCase();
   if (s === "open") return "open";
@@ -57,31 +77,17 @@ function render() {
 
   for (const row of rows) {
     const tr = document.createElement("tr");
+    const gotRaw = norm(row.got_ipo).toLowerCase();
+    if (gotRaw === "yes") {
+      tr.classList.add("got-yes");
+    } else if (gotRaw === "no") {
+      tr.classList.add("got-no");
+    } else if (gotRaw === "n/a") {
+      tr.classList.add("got-na");
+    }
 
     const companyTd = document.createElement("td");
-    const cBtn = document.createElement("button");
-    cBtn.className = "company-btn";
-    cBtn.textContent = norm(row.company_name) || "(unknown)";
-    cBtn.title = "Click to set allotment status (yes/no/na/clear)";
-    cBtn.addEventListener("click", () => {
-      const answer = window.prompt(
-        `Set allotment for ${row.company_name}. Type: yes / no / na / clear / source`,
-        "yes"
-      );
-      const cmd = norm(answer).toLowerCase();
-      if (!cmd) return;
-      if (cmd === "source") {
-        const u = norm(row.source_url);
-        if (u) window.open(u, "_blank", "noopener,noreferrer");
-        return;
-      }
-      if (!["yes", "no", "na", "clear"].includes(cmd)) {
-        showToast("Use yes, no, na, clear, or source", true);
-        return;
-      }
-      updateAllotment(row.company_name, cmd);
-    });
-    companyTd.appendChild(cBtn);
+    companyTd.textContent = norm(row.company_name) || "(unknown)";
 
     const statusTd = document.createElement("td");
     const badge = document.createElement("span");
@@ -92,44 +98,58 @@ function render() {
     const gotTd = document.createElement("td");
     const gotWrap = document.createElement("div");
     gotWrap.className = "action-cell";
-    const got = norm(row.got_ipo).toLowerCase();
+    const got = gotRaw;
+
+    const gotSelect = document.createElement("select");
+    gotSelect.className = "got-select";
+
+    const placeholder = document.createElement("option");
+    placeholder.value = "";
+    placeholder.textContent = "Select";
+    gotSelect.appendChild(placeholder);
+
+    const optYes = document.createElement("option");
+    optYes.value = "yes";
+    optYes.textContent = "Yes";
+    gotSelect.appendChild(optYes);
+
+    const optNo = document.createElement("option");
+    optNo.value = "no";
+    optNo.textContent = "No";
+    gotSelect.appendChild(optNo);
+
+    const optNa = document.createElement("option");
+    optNa.value = "na";
+    optNa.textContent = "N/A";
+    gotSelect.appendChild(optNa);
 
     if (got === "yes" || got === "no" || got === "n/a") {
-      const fixed = document.createElement("span");
-      const gotClass = got === "n/a" ? "na" : got;
-      fixed.className = `got-fixed ${gotClass}`;
-      fixed.textContent = got === "yes" ? "Yes" : got === "no" ? "No" : "N/A";
-      gotWrap.appendChild(fixed);
+      gotSelect.value = got === "n/a" ? "na" : got;
+      gotSelect.disabled = true;
+      gotSelect.classList.add("locked");
+      applyGotSelectClass(gotSelect, gotSelect.value);
     } else {
-      const yesBtn = document.createElement("button");
-      yesBtn.className = "btn-yes";
-      yesBtn.textContent = "Got";
-      yesBtn.addEventListener("click", () => updateAllotment(row.company_name, "yes"));
-
-      const noBtn = document.createElement("button");
-      noBtn.className = "btn-no";
-      noBtn.textContent = "No";
-      noBtn.addEventListener("click", () => updateAllotment(row.company_name, "no"));
-
-      const naBtn = document.createElement("button");
-      naBtn.className = "btn-na";
-      naBtn.textContent = "N/A";
-      naBtn.addEventListener("click", () => updateAllotment(row.company_name, "na"));
-
-      gotWrap.appendChild(yesBtn);
-      gotWrap.appendChild(noBtn);
-      gotWrap.appendChild(naBtn);
+      gotSelect.value = "";
+      applyGotSelectClass(gotSelect, gotSelect.value);
+      gotSelect.addEventListener("change", () => {
+        const selected = norm(gotSelect.value).toLowerCase();
+        if (!selected) return;
+        applyGotSelectClass(gotSelect, selected);
+        updateAllotment(row.company_name, selected);
+      });
     }
+
+    gotWrap.appendChild(gotSelect);
     gotTd.appendChild(gotWrap);
 
     const openTd = document.createElement("td");
-    openTd.textContent = norm(row.open_date);
+    openTd.textContent = formatDateNoYear(row.open_date);
     const closeTd = document.createElement("td");
-    closeTd.textContent = norm(row.close_date);
+    closeTd.textContent = formatDateNoYear(row.close_date);
     const allotTd = document.createElement("td");
-    allotTd.textContent = norm(row.allotment_date);
+    allotTd.textContent = formatDateNoYear(row.allotment_date);
     const listTd = document.createElement("td");
-    listTd.textContent = norm(row.listing_date);
+    listTd.textContent = formatDateNoYear(row.listing_date);
     const lotTd = document.createElement("td");
     lotTd.textContent = norm(row.lot_size);
     const bandTd = document.createElement("td");
