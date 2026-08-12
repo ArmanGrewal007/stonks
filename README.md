@@ -3,6 +3,7 @@
 This project updates a local Excel file with Mainboard IPO data using a free public source.
 
 It fills fields like:
+
 - Company name
 - Open date
 - Close date
@@ -17,6 +18,7 @@ It fills fields like:
 - Listing gain fields (when available)
 
 Status color coding in Excel:
+
 - `Open`: yellow
 - `Upcoming`: light blue
 - `Listed`: light green
@@ -96,6 +98,7 @@ You can also trigger it manually from the Actions tab.
 ## GitHub Pages Dashboard + Excel Allotment Updates
 
 This repo now includes a web dashboard in `docs/` and deployment workflow:
+
 - Dashboard: `docs/index.html`
 - Deploy workflow: `.github/workflows/deploy-pages.yml`
 - Allotment update workflow: `.github/workflows/set-ipo-allotment.yml`
@@ -118,5 +121,30 @@ This repo now includes a web dashboard in `docs/` and deployment workflow:
 
 The dashboard needs a GitHub token to dispatch workflows.
 Use a fine-grained token scoped to this repo with:
+
 - Actions: Read and write
 - Contents: Read and write
+
+### Test workflow dispatch from terminal
+
+If dashboard dispatch fails, test with curl directly.
+
+1. Export token in your terminal:
+
+```bash
+export GH_PAT="your_fine_grained_token"
+```
+
+2. Dispatch allotment workflow:
+
+```bash
+curl -i -X POST \
+	-H "Accept: application/vnd.github+json" \
+	-H "Authorization: Bearer $GH_PAT" \
+	-H "Content-Type: application/json" \
+	-H "X-GitHub-Api-Version: 2022-11-28" \
+	"https://api.github.com/repos/ArmanGrewal007/stonks/actions/workflows/331286347/dispatches" \
+	--data-raw '{"ref":"main","inputs":{"company_name":"LEAP India Ltd","got_ipo":"yes"}}'
+```
+
+Expected success response: `HTTP/2 204`.

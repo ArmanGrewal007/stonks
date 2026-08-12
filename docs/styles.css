@@ -177,6 +177,7 @@ th {
 .action-cell {
   display: flex;
   gap: 0.4rem;
+  align-items: center;
 }
 
 .action-cell button {
@@ -194,6 +195,24 @@ th {
 
 .btn-clear {
   background: #6b7280;
+}
+
+.got-fixed {
+  display: inline-block;
+  border-radius: 999px;
+  padding: 0.25rem 0.6rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.got-fixed.yes {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.got-fixed.no {
+  background: #fee2e2;
+  color: #991b1b;
 }
 
 .hint {

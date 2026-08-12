@@ -84,25 +84,27 @@ function render() {
 
     const gotTd = document.createElement("td");
     gotTd.className = "action-cell";
+    const got = norm(row.got_ipo).toLowerCase();
 
-    const yesBtn = document.createElement("button");
-    yesBtn.className = "btn-yes";
-    yesBtn.textContent = "Got";
-    yesBtn.addEventListener("click", () => updateAllotment(row.company_name, "yes"));
+    if (got === "yes" || got === "no") {
+      const fixed = document.createElement("span");
+      fixed.className = `got-fixed ${got}`;
+      fixed.textContent = got === "yes" ? "Yes" : "No";
+      gotTd.appendChild(fixed);
+    } else {
+      const yesBtn = document.createElement("button");
+      yesBtn.className = "btn-yes";
+      yesBtn.textContent = "Got";
+      yesBtn.addEventListener("click", () => updateAllotment(row.company_name, "yes"));
 
-    const noBtn = document.createElement("button");
-    noBtn.className = "btn-no";
-    noBtn.textContent = "No";
-    noBtn.addEventListener("click", () => updateAllotment(row.company_name, "no"));
+      const noBtn = document.createElement("button");
+      noBtn.className = "btn-no";
+      noBtn.textContent = "No";
+      noBtn.addEventListener("click", () => updateAllotment(row.company_name, "no"));
 
-    const clrBtn = document.createElement("button");
-    clrBtn.className = "btn-clear";
-    clrBtn.textContent = "Clear";
-    clrBtn.addEventListener("click", () => updateAllotment(row.company_name, "clear"));
-
-    gotTd.appendChild(yesBtn);
-    gotTd.appendChild(noBtn);
-    gotTd.appendChild(clrBtn);
+      gotTd.appendChild(yesBtn);
+      gotTd.appendChild(noBtn);
+    }
 
     const openTd = document.createElement("td");
     openTd.textContent = norm(row.open_date);
