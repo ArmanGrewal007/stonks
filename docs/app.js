@@ -62,10 +62,10 @@ function render() {
     const cBtn = document.createElement("button");
     cBtn.className = "company-btn";
     cBtn.textContent = norm(row.company_name) || "(unknown)";
-    cBtn.title = "Click to set allotment status (yes/no/clear)";
+    cBtn.title = "Click to set allotment status (yes/no/na/clear)";
     cBtn.addEventListener("click", () => {
       const answer = window.prompt(
-        `Set allotment for ${row.company_name}. Type: yes / no / clear / source`,
+        `Set allotment for ${row.company_name}. Type: yes / no / na / clear / source`,
         "yes"
       );
       const cmd = norm(answer).toLowerCase();
@@ -75,8 +75,8 @@ function render() {
         if (u) window.open(u, "_blank", "noopener,noreferrer");
         return;
       }
-      if (!["yes", "no", "clear"].includes(cmd)) {
-        showToast("Use yes, no, clear, or source", true);
+      if (!["yes", "no", "na", "clear"].includes(cmd)) {
+        showToast("Use yes, no, na, clear, or source", true);
         return;
       }
       updateAllotment(row.company_name, cmd);
@@ -94,10 +94,11 @@ function render() {
     gotWrap.className = "action-cell";
     const got = norm(row.got_ipo).toLowerCase();
 
-    if (got === "yes" || got === "no") {
+    if (got === "yes" || got === "no" || got === "n/a") {
       const fixed = document.createElement("span");
-      fixed.className = `got-fixed ${got}`;
-      fixed.textContent = got === "yes" ? "Yes" : "No";
+      const gotClass = got === "n/a" ? "na" : got;
+      fixed.className = `got-fixed ${gotClass}`;
+      fixed.textContent = got === "yes" ? "Yes" : got === "no" ? "No" : "N/A";
       gotWrap.appendChild(fixed);
     } else {
       const yesBtn = document.createElement("button");
@@ -110,8 +111,14 @@ function render() {
       noBtn.textContent = "No";
       noBtn.addEventListener("click", () => updateAllotment(row.company_name, "no"));
 
+      const naBtn = document.createElement("button");
+      naBtn.className = "btn-na";
+      naBtn.textContent = "N/A";
+      naBtn.addEventListener("click", () => updateAllotment(row.company_name, "na"));
+
       gotWrap.appendChild(yesBtn);
       gotWrap.appendChild(noBtn);
+      gotWrap.appendChild(naBtn);
     }
     gotTd.appendChild(gotWrap);
 

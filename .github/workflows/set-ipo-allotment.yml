@@ -8,12 +8,13 @@ on:
         required: true
         type: string
       got_ipo:
-        description: yes | no | clear
+        description: yes | no | na | clear
         required: true
         type: choice
         options:
           - "yes"
           - "no"
+          - "na"
           - "clear"
 
 permissions:

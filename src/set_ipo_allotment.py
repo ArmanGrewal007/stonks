@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Set manual IPO allotment decision in the Excel tracker.
 
-Values supported for got_ipo: yes, no, clear.
+Values supported for got_ipo: yes, no, na, clear.
 """
 
 from __future__ import annotations
@@ -15,6 +15,7 @@ TARGET_COLUMN = "got_ipo"
 SUPPORTED = {
     "yes": "Yes",
     "no": "No",
+    "na": "N/A",
     "clear": "",
 }
 
@@ -52,7 +53,7 @@ def main() -> int:
         "--got-ipo",
         required=True,
         choices=sorted(SUPPORTED.keys()),
-        help="Allotment decision: yes | no | clear",
+        help="Allotment decision: yes | no | na | clear",
     )
     args = parser.parse_args()
 
