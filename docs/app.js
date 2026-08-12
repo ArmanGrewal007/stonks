@@ -112,10 +112,34 @@ function render() {
     allotTd.textContent = norm(row.allotment_date);
     const listTd = document.createElement("td");
     listTd.textContent = norm(row.listing_date);
+    const lotTd = document.createElement("td");
+    lotTd.textContent = norm(row.lot_size);
+    const bandTd = document.createElement("td");
+    bandTd.textContent = norm(row.price_band);
     const invTd = document.createElement("td");
     invTd.textContent = norm(row.invested);
+    const listPriceTd = document.createElement("td");
+    listPriceTd.textContent = norm(row.listing_price);
+    const outputTd = document.createElement("td");
+    outputTd.textContent = norm(row.output);
+    const gainTd = document.createElement("td");
+    gainTd.textContent = norm(row.listing_gain);
 
-    tr.append(companyTd, statusTd, gotTd, openTd, closeTd, allotTd, listTd, invTd);
+    tr.append(
+      companyTd,
+      statusTd,
+      gotTd,
+      openTd,
+      closeTd,
+      allotTd,
+      listTd,
+      lotTd,
+      bandTd,
+      invTd,
+      listPriceTd,
+      outputTd,
+      gainTd
+    );
     els.body.appendChild(tr);
   }
 }

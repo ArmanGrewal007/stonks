@@ -13,3 +13,4 @@ venv/
 
 # Runtime temp
 *.log
+.env
