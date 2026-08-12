@@ -83,14 +83,15 @@ function render() {
     statusTd.appendChild(badge);
 
     const gotTd = document.createElement("td");
-    gotTd.className = "action-cell";
+    const gotWrap = document.createElement("div");
+    gotWrap.className = "action-cell";
     const got = norm(row.got_ipo).toLowerCase();
 
     if (got === "yes" || got === "no") {
       const fixed = document.createElement("span");
       fixed.className = `got-fixed ${got}`;
       fixed.textContent = got === "yes" ? "Yes" : "No";
-      gotTd.appendChild(fixed);
+      gotWrap.appendChild(fixed);
     } else {
       const yesBtn = document.createElement("button");
       yesBtn.className = "btn-yes";
@@ -102,9 +103,10 @@ function render() {
       noBtn.textContent = "No";
       noBtn.addEventListener("click", () => updateAllotment(row.company_name, "no"));
 
-      gotTd.appendChild(yesBtn);
-      gotTd.appendChild(noBtn);
+      gotWrap.appendChild(yesBtn);
+      gotWrap.appendChild(noBtn);
     }
+    gotTd.appendChild(gotWrap);
 
     const openTd = document.createElement("td");
     openTd.textContent = norm(row.open_date);
