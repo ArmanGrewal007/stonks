@@ -12,9 +12,9 @@ on:
         required: true
         type: choice
         options:
-          - yes
-          - no
-          - clear
+          - "yes"
+          - "no"
+          - "clear"
 
 permissions:
   contents: write
