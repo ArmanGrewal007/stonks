@@ -148,3 +148,24 @@ curl -i -X POST \
 ```
 
 Expected success response: `HTTP/2 204`.
+
+### Manual XLSX edits and website sync
+
+If you manually edit `data/mainboard_ipos.xlsx`, the website will not update until JSON is regenerated.
+
+1. Edit Excel file:
+
+- `data/mainboard_ipos.xlsx`
+
+2. Run export:
+
+```bash
+UV_CACHE_DIR=.uv-cache uv run src/export_web_data.py
+```
+
+3. Commit and push both files:
+
+- `data/mainboard_ipos.xlsx`
+- `docs/mainboard_ipos_web.json`
+
+4. GitHub Pages deploy workflow will publish the updated dashboard.
