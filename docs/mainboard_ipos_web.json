@@ -3,7 +3,7 @@
   "rows": [
     {
       "company_name": "Juniper Green Energy",
-      "got_ipo": "",
+      "got_ipo": "No",
       "ipo_status": "Listed",
       "open_date": "",
       "close_date": "",
@@ -22,7 +22,7 @@
     },
     {
       "company_name": "MV Electrosystems",
-      "got_ipo": "",
+      "got_ipo": "No",
       "ipo_status": "Listed",
       "open_date": "",
       "close_date": "",
@@ -41,7 +41,7 @@
     },
     {
       "company_name": "Anawil Wire & Engineering",
-      "got_ipo": "",
+      "got_ipo": "No",
       "ipo_status": "Listed",
       "open_date": "",
       "close_date": "",
@@ -60,7 +60,7 @@
     },
     {
       "company_name": "Ardee Industries",
-      "got_ipo": "",
+      "got_ipo": "No",
       "ipo_status": "Listed",
       "open_date": "",
       "close_date": "",
