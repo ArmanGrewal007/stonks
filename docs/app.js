@@ -26,6 +26,13 @@ function norm(v) {
   return String(v || "").trim();
 }
 
+function formatSubsc(v) {
+  const text = norm(v);
+  if (!text) return "";
+  if (/x$/i.test(text)) return text;
+  return `${text}x`;
+}
+
 function statusClass(status) {
   const s = norm(status).toLowerCase();
   if (s === "open") return "open";
@@ -128,6 +135,8 @@ function render() {
     outputTd.textContent = norm(row.output);
     const gainTd = document.createElement("td");
     gainTd.textContent = norm(row.listing_gain);
+    const subscTd = document.createElement("td");
+    subscTd.textContent = formatSubsc(row.total_subsc);
 
     tr.append(
       companyTd,
@@ -142,7 +151,8 @@ function render() {
       invTd,
       listPriceTd,
       outputTd,
-      gainTd
+      gainTd,
+      subscTd
     );
     els.body.appendChild(tr);
   }
