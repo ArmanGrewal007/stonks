@@ -3,7 +3,7 @@
   "rows": [
     {
       "company_name": "Juniper Green Energy",
-      "got_ipo": "No",
+      "got_ipo": "N/A",
       "ipo_status": "Listed",
       "open_date": "",
       "close_date": "",
@@ -22,7 +22,7 @@
     },
     {
       "company_name": "MV Electrosystems",
-      "got_ipo": "No",
+      "got_ipo": "Yes",
       "ipo_status": "Listed",
       "open_date": "",
       "close_date": "",
@@ -41,7 +41,7 @@
     },
     {
       "company_name": "Anawil Wire & Engineering",
-      "got_ipo": "No",
+      "got_ipo": "N/A",
       "ipo_status": "Listed",
       "open_date": "",
       "close_date": "",
@@ -98,7 +98,7 @@
     },
     {
       "company_name": "Technocraft Ventures Ltd",
-      "got_ipo": "No",
+      "got_ipo": "N/A",
       "ipo_status": "Closed",
       "open_date": "Aug 07, 2026",
       "close_date": "Aug 11, 2026",
