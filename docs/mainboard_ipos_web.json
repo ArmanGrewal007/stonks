@@ -1,5 +1,5 @@
 {
-  "count": 18,
+  "count": 23,
   "rows": [
     {
       "company_name": "Juniper Green Energy",
@@ -78,6 +78,25 @@
       "last_updated_ist": "2026-08-12 10:33:00"
     },
     {
+      "company_name": "LEAP India",
+      "got_ipo": "",
+      "ipo_status": "Listed",
+      "open_date": "",
+      "close_date": "",
+      "allotment_date": "",
+      "listing_date": "Aug 14, 2026",
+      "lot_size": "94",
+      "price_band": "159",
+      "invested": "14946",
+      "listing_price": "166",
+      "output": "15604",
+      "total_subsc": "8",
+      "listing_gain": "658",
+      "listing_gain%": "4",
+      "source_url": "https://www.moneycontrol.com/ipo/miscellaneous/leapindia/LIL07",
+      "last_updated_ist": "2026-08-14 21:36:23"
+    },
+    {
       "company_name": "LEAP India Ltd",
       "got_ipo": "Yes",
       "ipo_status": "Closed",
@@ -95,6 +114,25 @@
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/leapindialtd/LIL07",
       "last_updated_ist": "2026-08-13 10:35:31"
+    },
+    {
+      "company_name": "Technocraft Ventures",
+      "got_ipo": "",
+      "ipo_status": "Listed",
+      "open_date": "",
+      "close_date": "",
+      "allotment_date": "",
+      "listing_date": "Aug 14, 2026",
+      "lot_size": "70",
+      "price_band": "212",
+      "invested": "14840",
+      "listing_price": "284",
+      "output": "19880",
+      "total_subsc": "39",
+      "listing_gain": "5040",
+      "listing_gain%": "34",
+      "source_url": "https://www.moneycontrol.com/ipo/miscellaneous/technocraftventures/TVL",
+      "last_updated_ist": "2026-08-14 21:36:23"
     },
     {
       "company_name": "Technocraft Ventures Ltd",
@@ -132,7 +170,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/dhoottransmissionltd/DTL02",
-      "last_updated_ist": "2026-08-13 10:35:31"
+      "last_updated_ist": "2026-08-14 21:36:23"
     },
     {
       "company_name": "Molbio Diagnostics Ltd",
@@ -151,12 +189,12 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/molbiodiagnosticsltd/MDL02",
-      "last_updated_ist": "2026-08-13 10:35:31"
+      "last_updated_ist": "2026-08-14 21:36:23"
     },
     {
       "company_name": "Milky Mist Dairy Food Ltd",
       "got_ipo": "",
-      "ipo_status": "Open",
+      "ipo_status": "Closed",
       "open_date": "Aug 11, 2026",
       "close_date": "Aug 13, 2026",
       "allotment_date": "Aug 14, 2026",
@@ -166,11 +204,11 @@
       "invested": "14980",
       "listing_price": "",
       "output": "",
-      "total_subsc": "2",
+      "total_subsc": "56",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/milkymistdairyfoodltd/MMD",
-      "last_updated_ist": "2026-08-13 10:35:31"
+      "last_updated_ist": "2026-08-14 21:36:23"
     },
     {
       "company_name": "Behari Lal Engineering Ltd",
@@ -185,11 +223,11 @@
       "invested": "14820",
       "listing_price": "",
       "output": "",
-      "total_subsc": "2",
+      "total_subsc": "45",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/beharilalengineeringltd/BLE",
-      "last_updated_ist": "2026-08-13 10:35:31"
+      "last_updated_ist": "2026-08-14 21:36:23"
     },
     {
       "company_name": "Shiprocket Ltd",
@@ -204,11 +242,11 @@
       "invested": "14938",
       "listing_price": "",
       "output": "",
-      "total_subsc": "1",
+      "total_subsc": "35",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/shiprocketltd/SL26",
-      "last_updated_ist": "2026-08-13 10:35:31"
+      "last_updated_ist": "2026-08-14 21:36:23"
     },
     {
       "company_name": "Horizon Industrial Parks Ltd",
@@ -227,7 +265,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/horizonindustrialparksltd/HIP01",
-      "last_updated_ist": "2026-08-13 10:35:31"
+      "last_updated_ist": "2026-08-14 21:36:23"
     },
     {
       "company_name": "Lalithaa Jewellery Mart Ltd",
@@ -246,7 +284,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/lalithaajewellerymartltd/LJML",
-      "last_updated_ist": "2026-08-13 10:35:31"
+      "last_updated_ist": "2026-08-14 21:36:23"
     },
     {
       "company_name": "Shankesh Jewellers Ltd",
@@ -265,7 +303,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/shankeshjewellersltd/SJL01",
-      "last_updated_ist": "2026-08-13 10:35:31"
+      "last_updated_ist": "2026-08-14 21:36:23"
     },
     {
       "company_name": "Sunshine Pictures Ltd",
@@ -284,7 +322,45 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/sunshinepicturesltd/SPL13",
-      "last_updated_ist": "2026-08-13 10:35:31"
+      "last_updated_ist": "2026-08-14 21:36:23"
+    },
+    {
+      "company_name": "Gaja Alternative Asset Management Ltd",
+      "got_ipo": "",
+      "ipo_status": "Upcoming",
+      "open_date": "Aug 19, 2026",
+      "close_date": "Aug 21, 2026",
+      "allotment_date": "Aug 24, 2026",
+      "listing_date": "Aug 26, 2026",
+      "lot_size": "93",
+      "price_band": "152-160",
+      "invested": "14880",
+      "listing_price": "",
+      "output": "",
+      "total_subsc": "",
+      "listing_gain": "",
+      "listing_gain%": "",
+      "source_url": "https://www.moneycontrol.com/ipo/gajaalternativeassetmanagementltd/GAA",
+      "last_updated_ist": "2026-08-14 21:36:23"
+    },
+    {
+      "company_name": "Skyways Air Services",
+      "got_ipo": "",
+      "ipo_status": "Upcoming",
+      "open_date": "Aug 24, 2026",
+      "close_date": "Aug 27, 2026",
+      "allotment_date": "Aug 28, 2026",
+      "listing_date": "Sep 01, 2026",
+      "lot_size": "100",
+      "price_band": "131-138",
+      "invested": "13800",
+      "listing_price": "",
+      "output": "",
+      "total_subsc": "",
+      "listing_gain": "",
+      "listing_gain%": "",
+      "source_url": "https://www.moneycontrol.com/ipo/skywaysairservices/S28",
+      "last_updated_ist": "2026-08-14 21:36:23"
     },
     {
       "company_name": "Credent Connect N Care Ltd",
@@ -304,6 +380,25 @@
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/credentconnectncareltd/CCC04",
       "last_updated_ist": "2026-08-10 22:43:12"
+    },
+    {
+      "company_name": "Mopshop Distribution Ltd",
+      "got_ipo": "",
+      "ipo_status": "Upcoming",
+      "open_date": "Aug 19, 2026",
+      "close_date": "Aug 21, 2026",
+      "allotment_date": "Aug 24, 2026",
+      "listing_date": "",
+      "lot_size": "",
+      "price_band": "138",
+      "invested": "",
+      "listing_price": "",
+      "output": "",
+      "total_subsc": "",
+      "listing_gain": "",
+      "listing_gain%": "",
+      "source_url": "https://www.moneycontrol.com/ipo/mopshopdistributionltd/MDL03",
+      "last_updated_ist": "2026-08-14 21:36:23"
     },
     {
       "company_name": "Q&T Foods Ltd",
