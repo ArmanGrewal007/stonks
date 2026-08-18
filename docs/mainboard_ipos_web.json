@@ -1,5 +1,5 @@
 {
-  "count": 27,
+  "count": 28,
   "rows": [
     {
       "company_name": "Juniper Green Energy",
@@ -284,7 +284,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/beharilalengineeringltd/BLE",
-      "last_updated_ist": "2026-08-18 09:28:21"
+      "last_updated_ist": "2026-08-18 21:16:38"
     },
     {
       "company_name": "Shiprocket Ltd",
@@ -303,7 +303,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/shiprocketltd/SL26",
-      "last_updated_ist": "2026-08-18 09:28:21"
+      "last_updated_ist": "2026-08-18 21:16:38"
     },
     {
       "company_name": "Horizon Industrial Parks Ltd",
@@ -322,7 +322,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/horizonindustrialparksltd/HIP01",
-      "last_updated_ist": "2026-08-18 09:28:21"
+      "last_updated_ist": "2026-08-18 21:16:38"
     },
     {
       "company_name": "Lalithaa Jewellery Mart Ltd",
@@ -337,11 +337,11 @@
       "invested": "14874",
       "listing_price": "",
       "output": "",
-      "total_subsc": "1",
+      "total_subsc": "2",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/lalithaajewellerymartltd/LJML",
-      "last_updated_ist": "2026-08-18 09:28:21"
+      "last_updated_ist": "2026-08-18 21:16:38"
     },
     {
       "company_name": "Shankesh Jewellers Ltd",
@@ -356,11 +356,11 @@
       "invested": "14880",
       "listing_price": "",
       "output": "",
-      "total_subsc": "",
+      "total_subsc": "0",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/shankeshjewellersltd/SJL01",
-      "last_updated_ist": "2026-08-18 09:28:21"
+      "last_updated_ist": "2026-08-18 21:16:38"
     },
     {
       "company_name": "Sunshine Pictures Ltd",
@@ -375,11 +375,11 @@
       "invested": "14760",
       "listing_price": "",
       "output": "",
-      "total_subsc": "",
+      "total_subsc": "2",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/sunshinepicturesltd/SPL13",
-      "last_updated_ist": "2026-08-18 09:28:21"
+      "last_updated_ist": "2026-08-18 21:16:38"
     },
     {
       "company_name": "Gaja Alternative Asset Management Ltd",
@@ -398,7 +398,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/gajaalternativeassetmanagementltd/GAA",
-      "last_updated_ist": "2026-08-18 09:28:21"
+      "last_updated_ist": "2026-08-18 21:16:38"
     },
     {
       "company_name": "Tempsens Instruments India Ltd",
@@ -417,7 +417,26 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/tempsensinstrumentsindialtd/TII02",
-      "last_updated_ist": "2026-08-18 09:28:21"
+      "last_updated_ist": "2026-08-18 21:16:38"
+    },
+    {
+      "company_name": "Augmont Enterprises Ltd",
+      "got_ipo": "",
+      "ipo_status": "Upcoming",
+      "open_date": "Aug 21, 2026",
+      "close_date": "Aug 25, 2026",
+      "allotment_date": "Aug 27, 2026",
+      "listing_date": "Aug 31, 2026",
+      "lot_size": "19",
+      "price_band": "750-788",
+      "invested": "14972",
+      "listing_price": "",
+      "output": "",
+      "total_subsc": "",
+      "listing_gain": "",
+      "listing_gain%": "",
+      "source_url": "https://www.moneycontrol.com/ipo/augmontenterprisesltd/AEL13",
+      "last_updated_ist": "2026-08-18 21:16:38"
     },
     {
       "company_name": "Skyways Air Services",
@@ -436,7 +455,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/skywaysairservices/S28",
-      "last_updated_ist": "2026-08-18 09:28:21"
+      "last_updated_ist": "2026-08-18 21:16:38"
     },
     {
       "company_name": "Credent Connect N Care Ltd",
