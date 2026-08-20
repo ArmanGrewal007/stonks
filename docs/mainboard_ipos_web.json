@@ -346,7 +346,7 @@
     {
       "company_name": "Horizon Industrial Parks Ltd",
       "got_ipo": "",
-      "ipo_status": "Open",
+      "ipo_status": "Closed",
       "open_date": "Aug 17, 2026",
       "close_date": "Aug 19, 2026",
       "allotment_date": "Aug 20, 2026",
@@ -356,16 +356,16 @@
       "invested": "15000",
       "listing_price": "",
       "output": "",
-      "total_subsc": "0",
+      "total_subsc": "1",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/horizonindustrialparksltd/HIP01",
-      "last_updated_ist": "2026-08-19 21:16:43"
+      "last_updated_ist": "2026-08-20 09:29:12"
     },
     {
       "company_name": "Lalithaa Jewellery Mart",
       "got_ipo": "",
-      "ipo_status": "Open",
+      "ipo_status": "Closed",
       "open_date": "Aug 17, 2026",
       "close_date": "Aug 19, 2026",
       "allotment_date": "Aug 20, 2026",
@@ -375,11 +375,11 @@
       "invested": "14874",
       "listing_price": "",
       "output": "",
-      "total_subsc": "15",
+      "total_subsc": "63",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/lalithaajewellerymart/LJML",
-      "last_updated_ist": "2026-08-19 21:16:43"
+      "last_updated_ist": "2026-08-20 09:29:12"
     },
     {
       "company_name": "Lalithaa Jewellery Mart Ltd",
@@ -417,7 +417,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/shankeshjewellers/SJL01",
-      "last_updated_ist": "2026-08-19 21:16:43"
+      "last_updated_ist": "2026-08-20 09:29:12"
     },
     {
       "company_name": "Shankesh Jewellers Ltd",
@@ -451,11 +451,11 @@
       "invested": "14760",
       "listing_price": "",
       "output": "",
-      "total_subsc": "12",
+      "total_subsc": "18",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/sunshinepicturesltd/SPL13",
-      "last_updated_ist": "2026-08-19 21:16:43"
+      "last_updated_ist": "2026-08-20 09:29:12"
     },
     {
       "company_name": "Gaja Alternative Asset Management Ltd",
@@ -470,22 +470,22 @@
       "invested": "14880",
       "listing_price": "",
       "output": "",
-      "total_subsc": "0",
+      "total_subsc": "1",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/gajaalternativeassetmanagementltd/GAA",
-      "last_updated_ist": "2026-08-19 21:16:43"
+      "last_updated_ist": "2026-08-20 09:29:12"
     },
     {
       "company_name": "Tempsens Instruments India Ltd",
       "got_ipo": "",
-      "ipo_status": "Upcoming",
+      "ipo_status": "Open",
       "open_date": "Aug 20, 2026",
       "close_date": "Aug 24, 2026",
       "allotment_date": "Aug 25, 2026",
       "listing_date": "Aug 28, 2026",
       "lot_size": "50",
-      "price_band": "285-300",
+      "price_band": "300",
       "invested": "15000",
       "listing_price": "",
       "output": "",
@@ -493,7 +493,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/tempsensinstrumentsindialtd/TII02",
-      "last_updated_ist": "2026-08-19 21:16:43"
+      "last_updated_ist": "2026-08-20 09:29:12"
     },
     {
       "company_name": "Augmont Enterprises Ltd",
@@ -512,7 +512,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/augmontenterprisesltd/AEL13",
-      "last_updated_ist": "2026-08-19 21:16:43"
+      "last_updated_ist": "2026-08-20 09:29:12"
     },
     {
       "company_name": "Hy-Tech Engineers Ltd",
@@ -531,7 +531,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/hy-techengineersltd/HEL01",
-      "last_updated_ist": "2026-08-19 21:16:43"
+      "last_updated_ist": "2026-08-20 09:29:12"
     },
     {
       "company_name": "Skyways Air Services",
@@ -550,7 +550,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/skywaysairservices/S28",
-      "last_updated_ist": "2026-08-19 21:16:43"
+      "last_updated_ist": "2026-08-20 09:29:12"
     },
     {
       "company_name": "Symbiotec Pharmalab Ltd",
@@ -569,7 +569,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/symbiotecpharmalabltd/SPL14",
-      "last_updated_ist": "2026-08-19 21:16:43"
+      "last_updated_ist": "2026-08-20 09:29:12"
     },
     {
       "company_name": "Credent Connect N Care Ltd",
