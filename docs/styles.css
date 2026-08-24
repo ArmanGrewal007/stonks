@@ -152,6 +152,7 @@ button.company-btn:hover {
 
 .table-wrap {
   overflow: auto;
+  max-height: calc(100vh - 240px);
 }
 
 table {
@@ -172,6 +173,48 @@ th {
   font-size: 0.82rem;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+  position: sticky;
+  top: 0;
+  background: #fbf9f3;
+  z-index: 20;
+  box-shadow: 0 1px 0 var(--line);
+}
+
+th:first-child,
+td.company-cell {
+  max-width: 135px;
+  width: 135px;
+  min-width: 135px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.company-cell {
+  position: relative;
+  overflow: hidden;
+}
+
+.company-name-text {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+tbody tr:hover .company-name-text {
+  overflow: visible;
+  display: inline-block;
+  animation: marquee-scroll 4s linear infinite alternate;
+}
+
+@keyframes marquee-scroll {
+  0%, 20% {
+    transform: translateX(0);
+  }
+  80%, 100% {
+    transform: translateX(min(0px, calc(125px - 100%)));
+  }
 }
 
 tbody tr {
@@ -179,25 +222,31 @@ tbody tr {
 }
 
 tbody tr:hover {
-  background: rgba(13, 148, 136, 0.08);
+  background: rgba(245, 158, 11, 0.14);
 }
 
 tbody tr.got-yes {
-  background: rgba(34, 197, 94, 0.07);
+  background: rgba(34, 197, 94, 0.09);
+}
+
+tbody tr.got-yes:hover {
+  background: rgba(34, 197, 94, 0.22);
 }
 
 tbody tr.got-no {
-  background: rgba(239, 68, 68, 0.07);
+  background: rgba(239, 68, 68, 0.09);
+}
+
+tbody tr.got-no:hover {
+  background: rgba(239, 68, 68, 0.22);
 }
 
 tbody tr.got-na {
-  background: rgba(124, 58, 237, 0.07);
+  background: rgba(124, 58, 237, 0.09);
 }
 
-tbody tr.got-yes:hover,
-tbody tr.got-no:hover,
 tbody tr.got-na:hover {
-  background: rgba(13, 148, 136, 0.12);
+  background: rgba(124, 58, 237, 0.22);
 }
 
 .action-cell {

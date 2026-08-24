@@ -20,6 +20,7 @@ USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
 CSV_COLUMNS = [
     # "company_code",
     "company_name",
+    "applied",
     "got_ipo",
     # "ipo_type", # Mainline for all rows, so not needed in output
     "ipo_status",
@@ -275,6 +276,7 @@ def normalize_row(item: dict[str, Any], bucket_name: str, now_ist: str) -> dict[
     return {
         # "company_code": str(item.get("company_code") or item.get("sc_id") or "").strip(),
         "company_name": str(item.get("company_name") or "").strip(),
+        "applied": "",
         "got_ipo": "",
         # "ipo_type": str(item.get("ipo_type") or "").strip(),
         "ipo_status": status,
@@ -301,21 +303,77 @@ def normalize_row(item: dict[str, Any], bucket_name: str, now_ist: str) -> dict[
     }
 
 
-def merge_rows(existing: dict[str, str], incoming: dict[str, str]) -> dict[str, str]:
-    if existing.get("ipo_status", "") == "Listed":
-        # Once a row is listed, keep it frozen.
-        return dict(existing)
+def normalize_company_name(name: str) -> str:
+    text = str(name or "").strip().lower()
+    text = re.sub(r"\b(private|pvt|limited|ltd|inc|corp|corporation|llp)\b", "", text)
+    text = re.sub(r"[^a-z0-9]", "", text)
+    return text
 
+
+def extract_company_code(url: str) -> str:
+    raw = str(url or "").strip()
+    if not raw:
+        return ""
+    detail_match = re.search(r"/([^/]+)-([A-Z0-9]+)-ipodetail/?", raw, re.IGNORECASE)
+    if detail_match:
+        return detail_match.group(2).upper()
+    code_match = re.search(r"/([A-Z0-9]{2,10})/?$", raw, re.IGNORECASE)
+    if code_match:
+        code = code_match.group(1).upper()
+        if code not in ("IPO", "MAINBOARD", "INDEX", "HTML"):
+            return code
+    return ""
+
+
+def row_key(row: dict[str, str]) -> str:
+    url = row.get("source_url", "")
+    code = extract_company_code(url)
+    if code:
+        return f"code:{code}"
+    norm_name = normalize_company_name(row.get("company_name", ""))
+    if norm_name:
+        return f"name:{norm_name}"
+    return f"raw:{row.get('company_name', '').strip().lower()}"
+
+
+def find_matching_key(row: dict[str, str], existing: dict[str, dict[str, str]]) -> str | None:
+    key = row_key(row)
+    if key in existing:
+        return key
+
+    code = extract_company_code(row.get("source_url", ""))
+    norm_name = normalize_company_name(row.get("company_name", ""))
+
+    for ex_key, ex_row in existing.items():
+        ex_code = extract_company_code(ex_row.get("source_url", ""))
+        ex_norm = normalize_company_name(ex_row.get("company_name", ""))
+
+        if code and ex_code and code == ex_code:
+            return ex_key
+        if norm_name and ex_norm and norm_name == ex_norm:
+            return ex_key
+
+    return None
+
+
+def merge_rows(existing: dict[str, str], incoming: dict[str, str]) -> dict[str, str]:
     merged = dict(existing)
-    for key, value in incoming.items():
-        if value not in ("", None):
-            merged[key] = value
 
     status_rank = {"Upcoming": 1, "Open": 2, "Closed": 3, "Listed": 4}
     old_status = existing.get("ipo_status", "")
     new_status = incoming.get("ipo_status", "")
-    if status_rank.get(new_status, 0) >= status_rank.get(old_status, 0):
-        merged["ipo_status"] = new_status
+
+    for key, value in incoming.items():
+        v_str = str(value).strip() if value is not None else ""
+        if v_str != "":
+            if key == "ipo_status":
+                if status_rank.get(v_str, 0) >= status_rank.get(old_status, 0):
+                    merged["ipo_status"] = v_str
+            elif key == "company_name":
+                if len(v_str) > len(str(merged.get(key, "")).strip()):
+                    merged[key] = v_str
+            else:
+                merged[key] = v_str
 
     # Open/Upcoming/Closed rows should not carry listing-time fields.
     if merged.get("ipo_status", "") != "Listed":
@@ -325,10 +383,6 @@ def merge_rows(existing: dict[str, str], incoming: dict[str, str]) -> dict[str, 
         merged["listing_gain%"] = ""
 
     return merged
-
-
-def row_key(row: dict[str, str]) -> str:
-    return f"name:{row.get('company_name', '').strip().lower()}"
 
 
 def load_existing_excel(path: Path) -> dict[str, dict[str, str]]:
@@ -363,9 +417,13 @@ def load_existing_excel(path: Path) -> dict[str, dict[str, str]]:
         for col in CSV_COLUMNS:
             row.setdefault(col, "")
 
-        key = row_key(row)
-        if key:
-            rows[key] = row
+        match_key = find_matching_key(row, rows)
+        if match_key:
+            rows[match_key] = merge_rows(rows[match_key], row)
+        else:
+            key = row_key(row)
+            if key:
+                rows[key] = row
 
     return rows
 
@@ -449,13 +507,13 @@ def collect_mainboard_rows(payload: dict[str, Any]) -> list[dict[str, str]]:
             if str(item.get("ipo_type", "")).strip().lower() != "mainline":
                 continue
             row = normalize_row(item, bucket, now_ist)
-            key = row_key(row)
-            if not key:
-                continue
-            if key in collected:
-                collected[key] = merge_rows(collected[key], row)
+            match_key = find_matching_key(row, collected)
+            if match_key:
+                collected[match_key] = merge_rows(collected[match_key], row)
             else:
-                collected[key] = row
+                key = row_key(row)
+                if key:
+                    collected[key] = row
 
     return list(collected.values())
 
@@ -547,10 +605,11 @@ def run(snapshot_json: Path, output_xlsx: Path) -> int:
 
     before_count = len(existing)
     for row in incoming_rows:
-        key = row_key(row)
-        if key in existing:
-            existing[key] = merge_rows(existing[key], row)
+        match_key = find_matching_key(row, existing)
+        if match_key:
+            existing[match_key] = merge_rows(existing[match_key], row)
         else:
+            key = row_key(row)
             existing[key] = row 
 
     visible_rows = [row for row in existing.values()]

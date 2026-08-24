@@ -8,14 +8,27 @@ on:
         required: true
         type: string
       got_ipo:
-        description: yes | no | na | clear
-        required: true
+        description: yes | no | na | clear | none
+        required: false
+        default: "none"
         type: choice
         options:
           - "yes"
           - "no"
           - "na"
           - "clear"
+          - "none"
+      applied:
+        description: yes | no | na | clear | none
+        required: false
+        default: "none"
+        type: choice
+        options:
+          - "yes"
+          - "no"
+          - "na"
+          - "clear"
+          - "none"
 
 permissions:
   contents: write
@@ -35,10 +48,14 @@ jobs:
 
       - name: Apply allotment update
         run: |
-          uv run src/set_ipo_allotment.py \
-            --excel data/mainboard_ipos.xlsx \
-            --company "${{ github.event.inputs.company_name }}" \
-            --got-ipo "${{ github.event.inputs.got_ipo }}"
+          ARGS="--excel data/mainboard_ipos.xlsx --company \"${{ github.event.inputs.company_name }}\""
+          if [ "${{ github.event.inputs.got_ipo }}" != "none" ] && [ -n "${{ github.event.inputs.got_ipo }}" ]; then
+            ARGS="$ARGS --got-ipo \"${{ github.event.inputs.got_ipo }}\""
+          fi
+          if [ "${{ github.event.inputs.applied }}" != "none" ] && [ -n "${{ github.event.inputs.applied }}" ]; then
+            ARGS="$ARGS --applied \"${{ github.event.inputs.applied }}\""
+          fi
+          eval "uv run src/set_ipo_allotment.py $ARGS"
 
       - name: Refresh web JSON
         run: uv run src/export_web_data.py

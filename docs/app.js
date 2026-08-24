@@ -87,13 +87,67 @@ function render() {
     }
 
     const companyTd = document.createElement("td");
-    companyTd.textContent = norm(row.company_name) || "(unknown)";
+    companyTd.className = "company-cell";
+    companyTd.title = norm(row.company_name);
+
+    const companySpan = document.createElement("span");
+    companySpan.className = "company-name-text";
+    companySpan.textContent = norm(row.company_name) || "(unknown)";
+
+    companyTd.appendChild(companySpan);
 
     const statusTd = document.createElement("td");
     const badge = document.createElement("span");
     badge.className = `status ${statusClass(row.ipo_status)}`;
     badge.textContent = norm(row.ipo_status) || "Unknown";
     statusTd.appendChild(badge);
+
+    const appliedTd = document.createElement("td");
+    const appliedWrap = document.createElement("div");
+    appliedWrap.className = "action-cell";
+    const appliedRaw = norm(row.applied).toLowerCase();
+
+    const appliedSelect = document.createElement("select");
+    appliedSelect.className = "got-select";
+
+    const appPlaceholder = document.createElement("option");
+    appPlaceholder.value = "";
+    appPlaceholder.textContent = "Select";
+    appliedSelect.appendChild(appPlaceholder);
+
+    const appOptYes = document.createElement("option");
+    appOptYes.value = "yes";
+    appOptYes.textContent = "Yes";
+    appliedSelect.appendChild(appOptYes);
+
+    const appOptNo = document.createElement("option");
+    appOptNo.value = "no";
+    appOptNo.textContent = "No";
+    appliedSelect.appendChild(appOptNo);
+
+    const appOptNa = document.createElement("option");
+    appOptNa.value = "na";
+    appOptNa.textContent = "N/A";
+    appliedSelect.appendChild(appOptNa);
+
+    if (appliedRaw === "yes" || appliedRaw === "no" || appliedRaw === "n/a") {
+      appliedSelect.value = appliedRaw === "n/a" ? "na" : appliedRaw;
+      appliedSelect.disabled = true;
+      appliedSelect.classList.add("locked");
+      applyGotSelectClass(appliedSelect, appliedSelect.value);
+    } else {
+      appliedSelect.value = "";
+      applyGotSelectClass(appliedSelect, appliedSelect.value);
+      appliedSelect.addEventListener("change", () => {
+        const selected = norm(appliedSelect.value).toLowerCase();
+        if (!selected) return;
+        applyGotSelectClass(appliedSelect, selected);
+        updateStatus(row.company_name, { applied: selected });
+      });
+    }
+
+    appliedWrap.appendChild(appliedSelect);
+    appliedTd.appendChild(appliedWrap);
 
     const gotTd = document.createElement("td");
     const gotWrap = document.createElement("div");
@@ -135,7 +189,7 @@ function render() {
         const selected = norm(gotSelect.value).toLowerCase();
         if (!selected) return;
         applyGotSelectClass(gotSelect, selected);
-        updateAllotment(row.company_name, selected);
+        updateStatus(row.company_name, { got_ipo: selected });
       });
     }
 
@@ -168,6 +222,7 @@ function render() {
     tr.append(
       companyTd,
       statusTd,
+      appliedTd,
       gotTd,
       openTd,
       closeTd,
@@ -193,7 +248,7 @@ async function fetchRows() {
   render();
 }
 
-async function updateAllotment(companyName, gotIpo) {
+async function updateStatus(companyName, opts = {}) {
   const token = norm(els.token.value);
   const owner = norm(els.owner.value);
   const repo = norm(els.repo.value);
@@ -213,7 +268,8 @@ async function updateAllotment(companyName, gotIpo) {
     ref: branch,
     inputs: {
       company_name: companyName,
-      got_ipo: gotIpo,
+      got_ipo: opts.got_ipo || "none",
+      applied: opts.applied || "none",
     },
   };
 
@@ -229,7 +285,8 @@ async function updateAllotment(companyName, gotIpo) {
     });
 
     if (res.status === 204) {
-      showToast(`Queued update: ${companyName} -> ${gotIpo}`);
+      const detail = opts.applied ? `applied -> ${opts.applied}` : `got_ipo -> ${opts.got_ipo}`;
+      showToast(`Queued update: ${companyName} (${detail})`);
       return;
     }
 

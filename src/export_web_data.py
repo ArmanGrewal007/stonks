@@ -45,6 +45,7 @@ def main() -> int:
         if empty:
             continue
 
+        row.setdefault("applied", "")
         row.setdefault("got_ipo", "")
         rows.append(row)
 
