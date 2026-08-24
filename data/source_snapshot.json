@@ -10,7 +10,7 @@
         "open_Upcoming": [
           {
             "ipo_status": "Open",
-            "company_name": "Tempsens Instruments India Ltd",
+            "company_name": "Tempsens Instruments India",
             "short_name": null,
             "company_code": 13520559,
             "url": "/tempsensinstrumentsindialtd/TII02",
@@ -26,7 +26,7 @@
             "to_issue_price": 300,
             "issue_size": 6499999800,
             "document_code": "PR00667.pdf",
-            "short_desc": "IPO opens for subscription on 2026-08-20 and closes on 2026-08-24. Tempsens Instruments India Ltd IPO price band is set at 285.00 to 300.00 per share.",
+            "short_desc": "IPO opens for subscription on 2026-08-20 and closes on 2026-08-24. Tempsens Instruments India IPO price band is set at 285.00 to 300.00 per share.",
             "total": 88.61,
             "total_subs": 88.61,
             "qib": 41.12,
@@ -36,7 +36,7 @@
           },
           {
             "ipo_status": "Open",
-            "company_name": "Augmont Enterprises Ltd",
+            "company_name": "Augmont Enterprises",
             "short_name": null,
             "company_code": 14095779,
             "url": "/augmontenterprisesltd/AEL13",
@@ -52,7 +52,7 @@
             "to_issue_price": 788,
             "issue_size": 8249999884,
             "document_code": "PR00669.pdf",
-            "short_desc": "IPO opens for subscription on 2026-08-21 and closes on 2026-08-25. Augmont Enterprises Ltd IPO price band is set at 750.00 to 788.00 per share.",
+            "short_desc": "IPO opens for subscription on 2026-08-21 and closes on 2026-08-25. Augmont Enterprises IPO price band is set at 750.00 to 788.00 per share.",
             "total": 10.56,
             "total_subs": 10.56,
             "qib": 1.86,
@@ -140,7 +140,7 @@
           },
           {
             "ipo_status": "Open",
-            "company_name": "ABH Healthcare Ltd",
+            "company_name": "ABH Healthcare",
             "short_name": null,
             "company_code": 16550835,
             "url": "/abhhealthcareltd/AHL03",
@@ -156,7 +156,7 @@
             "to_issue_price": 102,
             "issue_size": 349819200,
             "document_code": "PR00668.pdf",
-            "short_desc": "IPO opens for subscription on 2026-08-24 and closes on 2026-08-26. ABH Healthcare Ltd IPO price band is set at 96.00 to 102.00 per share.",
+            "short_desc": "IPO opens for subscription on 2026-08-24 and closes on 2026-08-26. ABH Healthcare IPO price band is set at 96.00 to 102.00 per share.",
             "total": 0.29,
             "total_subs": 0.29,
             "qib": 3.45,
@@ -166,7 +166,7 @@
           },
           {
             "ipo_status": "Open",
-            "company_name": "Madhur Knit Crafts Ltd",
+            "company_name": "Madhur Knit Crafts",
             "short_name": null,
             "company_code": 16070403,
             "url": "/madhurknitcraftsltd/MKCL",
@@ -182,7 +182,7 @@
             "to_issue_price": 100,
             "issue_size": 270000000,
             "document_code": "PR0066B.pdf",
-            "short_desc": "IPO opens for subscription on 2026-08-24 and closes on 2026-08-27. Madhur Knit Crafts Ltd IPO price band is set at 95.00 to 100.00 per share.",
+            "short_desc": "IPO opens for subscription on 2026-08-24 and closes on 2026-08-27. Madhur Knit Crafts IPO price band is set at 95.00 to 100.00 per share.",
             "total": 0.17,
             "total_subs": 0.17,
             "qib": 0,
@@ -374,7 +374,7 @@
           },
           {
             "ipo_status": "Upcoming",
-            "company_name": "Sumax Engineering Ltd",
+            "company_name": "Sumax Engineering",
             "short_name": null,
             "company_code": 13521341,
             "url": "/sumaxengineeringltd/SEL11",
@@ -390,7 +390,7 @@
             "to_issue_price": 101,
             "issue_size": 534007200,
             "document_code": "PR0066A.pdf",
-            "short_desc": "IPO opens for subscription on 2026-08-25 and closes on 2026-08-28. Sumax Engineering Ltd IPO price band is set at 95.00 to 101.00 per share.",
+            "short_desc": "IPO opens for subscription on 2026-08-25 and closes on 2026-08-28. Sumax Engineering IPO price band is set at 95.00 to 101.00 per share.",
             "total": null,
             "total_subs": null,
             "qib": null,
@@ -400,7 +400,7 @@
           },
           {
             "ipo_status": "Upcoming",
-            "company_name": "Kwick Forensic Solutions Ltd",
+            "company_name": "Kwick Forensic Solutions",
             "short_name": null,
             "company_code": 13193331,
             "url": "/kwickforensicsolutionsltd/KFS06",
@@ -416,7 +416,7 @@
             "to_issue_price": 90,
             "issue_size": 507744000,
             "document_code": null,
-            "short_desc": "IPO opens for subscription on 2026-08-27 and closes on 2026-08-31. Kwick Forensic Solutions Ltd IPO price band is set at 85.00 to 90.00 per share.",
+            "short_desc": "IPO opens for subscription on 2026-08-27 and closes on 2026-08-31. Kwick Forensic Solutions IPO price band is set at 85.00 to 90.00 per share.",
             "total": null,
             "total_subs": null,
             "qib": null,
@@ -426,6 +426,16 @@
           }
         ],
         "draftIssue": [
+          {
+            "equityName": "Avtar Steel Limited",
+            "date": "21-Aug-2026",
+            "pdfFileLink": "https://images.moneycontrol.com/news_html_files/pdffiles/Aug2026/avtar-steel.pdf"
+          },
+          {
+            "equityName": "J Pan Tubular Components Limited",
+            "date": "20-Aug-2026",
+            "pdfFileLink": "https://images.moneycontrol.com/news_html_files/pdffiles/Aug2026/j-pan.pdf"
+          },
           {
             "equityName": "Lumino Industries Limited",
             "date": "19-Aug-2026",
@@ -440,16 +450,6 @@
             "equityName": "Muthoot Fincorp Limited",
             "date": "17-Aug-2026",
             "pdfFileLink": "https://images.moneycontrol.com/news_html_files/pdffiles/Aug2026/muthoot-fincorp.pdf"
-          },
-          {
-            "equityName": "Sillverton Industries Limited",
-            "date": "14-Aug-2026",
-            "pdfFileLink": "https://images.moneycontrol.com/news_html_files/pdffiles/Aug2026/sillverton-industries.pdf"
-          },
-          {
-            "equityName": "Zetwerk Manufacturing Businesses Limited",
-            "date": "14-Aug-2026",
-            "pdfFileLink": "https://images.moneycontrol.com/news_html_files/pdffiles/Aug2026/zetwerk-manufacturing.pdf"
           }
         ],
         "loader": true,
@@ -478,7 +478,7 @@
           },
           {
             "sc_id": "GAA",
-            "company_name": "Gaja Alternative Asset Management Ltd",
+            "company_name": "Gaja Alternative Asset Management",
             "short_name": null,
             "company_code": 17151167,
             "url": "/gajaalternativeassetmanagementltd/GAA",
@@ -500,7 +500,7 @@
           },
           {
             "sc_id": "MDL03",
-            "company_name": "Mopshop Distribution Ltd",
+            "company_name": "Mopshop Distribution",
             "short_name": null,
             "company_code": 11251298,
             "url": "/mopshopdistributionltd/MDL03",
@@ -720,7 +720,7 @@
         "openIpoList": [
           {
             "sc_id": "AEL14",
-            "company_name": "Augmont Enterprises Ltd",
+            "company_name": "Augmont Enterprises",
             "company_code": 14095779,
             "url": "/augmontenterprisesltd/AEL13",
             "ipo_type": "Mainline",
@@ -736,7 +736,7 @@
           },
           {
             "sc_id": "AHL03",
-            "company_name": "ABH Healthcare Ltd",
+            "company_name": "ABH Healthcare",
             "company_code": 16550835,
             "url": "/abhhealthcareltd/AHL03",
             "ipo_type": "SME",
@@ -768,7 +768,7 @@
           },
           {
             "sc_id": "MKCL",
-            "company_name": "Madhur Knit Crafts Ltd",
+            "company_name": "Madhur Knit Crafts",
             "company_code": 16070403,
             "url": "/madhurknitcraftsltd/MKCL",
             "ipo_type": "SME",
@@ -816,7 +816,7 @@
           },
           {
             "sc_id": "TII02",
-            "company_name": "Tempsens Instruments India Ltd",
+            "company_name": "Tempsens Instruments India",
             "company_code": 13520559,
             "url": "/tempsensinstrumentsindialtd/TII02",
             "ipo_type": "Mainline",
@@ -943,10 +943,10 @@
             "microsite_cat_1": "n-a",
             "microsite_cat_2": "n-a",
             "post_type": "news",
-            "tags": "IPO, Bonus, IPO - News, Atomberg, Sibabrata Das",
-            "stags": "IPO, Bonus, IPO - News, Atomberg, Sibabrata Das",
-            "tag_ids": "223762, 231686, 284208, 1608181, 1608241",
-            "tags_slug": "ipo, bonus, ipo-news, atomberg, sibabrata-das",
+            "tags": "IPO, Bonus, IPO - News, Atomberg, Sibabrata Das, editors-picks",
+            "stags": "IPO, Bonus, IPO - News, Atomberg, Sibabrata Das, editors-picks",
+            "tag_ids": "223762, 231686, 284208, 1608181, 1608241, 2137232",
+            "tags_slug": "ipo, bonus, ipo-news, atomberg, sibabrata-das, editors-picks",
             "categories": "Business",
             "scategories": "Business",
             "category_ids": "282777",
@@ -1029,10 +1029,10 @@
             "microsite_cat_1": "n-a",
             "microsite_cat_2": "n-a",
             "post_type": "news",
-            "tags": "manufacturing, startups, IPO - News, zetwerk",
-            "stags": "manufacturing, startups, IPO - News, zetwerk",
-            "tag_ids": "226658, 226891, 284208, 1083261",
-            "tags_slug": "manufacturing, startups, ipo-news, zetwerk",
+            "tags": "manufacturing, startups, IPO - News, zetwerk, editors-picks",
+            "stags": "manufacturing, startups, IPO - News, zetwerk, editors-picks",
+            "tag_ids": "226658, 226891, 284208, 1083261, 2137232",
+            "tags_slug": "manufacturing, startups, ipo-news, zetwerk, editors-picks",
             "categories": "Business",
             "scategories": "Business",
             "category_ids": "282777",
@@ -1103,7 +1103,7 @@
   },
   "page": "/IPO",
   "query": {},
-  "buildId": "TriHL6vRD5xsamD44Mtth",
+  "buildId": "fean8Y7WKkKrkRyxA1h_N",
   "assetPrefix": "/mc-react",
   "isFallback": false,
   "dynamicIds": [
