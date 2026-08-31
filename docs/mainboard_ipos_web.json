@@ -299,7 +299,7 @@
       "listing_gain": "1476",
       "listing_gain%": "10",
       "source_url": "https://www.moneycontrol.com/ipo/miscellaneous/sunshinepictures/SPL13",
-      "last_updated_ist": "2026-08-30 14:44:43"
+      "last_updated_ist": "2026-08-31 15:16:14"
     },
     {
       "company_name": "Gaja Alternative Asset Management Ltd",
@@ -319,7 +319,7 @@
       "listing_gain": "2325",
       "listing_gain%": "16",
       "source_url": "https://www.moneycontrol.com/ipo/finance-investment/gajaalternativeassetmanagement/GAA",
-      "last_updated_ist": "2026-08-30 14:44:43"
+      "last_updated_ist": "2026-08-31 15:16:14"
     },
     {
       "company_name": "Tempsens Instruments India Ltd",
@@ -339,13 +339,13 @@
       "listing_gain": "16700",
       "listing_gain%": "111",
       "source_url": "https://www.moneycontrol.com/ipo/engineering-industrial-equipments/tempsensinstrumentsindia/TII02",
-      "last_updated_ist": "2026-08-30 14:44:43"
+      "last_updated_ist": "2026-08-31 15:16:14"
     },
     {
       "company_name": "Augmont Enterprises Ltd",
       "applied": "Yes",
       "got_ipo": "",
-      "ipo_status": "Closed",
+      "ipo_status": "Listed",
       "open_date": "Aug 21, 2026",
       "close_date": "Aug 25, 2026",
       "allotment_date": "Aug 27, 2026",
@@ -358,8 +358,8 @@
       "total_subsc": "106",
       "listing_gain": "",
       "listing_gain%": "",
-      "source_url": "https://www.moneycontrol.com/ipo/augmontenterprises/AEL13",
-      "last_updated_ist": "2026-08-30 14:44:43"
+      "source_url": "https://www.moneycontrol.com/ipo/trading/augmontenterprises/AEL13",
+      "last_updated_ist": "2026-08-31 15:16:14"
     },
     {
       "company_name": "Hy-Tech Engineers Ltd",
@@ -379,7 +379,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/hy-techengineersltd/HEL01",
-      "last_updated_ist": "2026-08-30 14:44:43"
+      "last_updated_ist": "2026-08-31 15:16:14"
     },
     {
       "company_name": "Skyways Air Services",
@@ -399,7 +399,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/skywaysairservices/S28",
-      "last_updated_ist": "2026-08-30 14:44:43"
+      "last_updated_ist": "2026-08-31 15:16:14"
     },
     {
       "company_name": "Symbiotec Pharmalab Ltd",
@@ -419,7 +419,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/symbiotecpharmalabltd/SPL14",
-      "last_updated_ist": "2026-08-28 20:53:27"
+      "last_updated_ist": "2026-08-31 15:16:14"
     },
     {
       "company_name": "Annu Projects Ltd",
@@ -439,7 +439,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/annuprojectsltd/APL12",
-      "last_updated_ist": "2026-08-30 14:44:43"
+      "last_updated_ist": "2026-08-31 15:16:14"
     },
     {
       "company_name": "Lumino Industries Ltd",
@@ -459,7 +459,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/luminoindustriesltd/LIL08",
-      "last_updated_ist": "2026-08-30 14:44:43"
+      "last_updated_ist": "2026-08-31 15:16:14"
     },
     {
       "company_name": "ESDS Software Solution Ltd",
@@ -479,7 +479,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/esdssoftwaresolutionltd/ESSL",
-      "last_updated_ist": "2026-08-30 14:44:43"
+      "last_updated_ist": "2026-08-31 15:16:14"
     },
     {
       "company_name": "Priority Jewels Ltd",
@@ -499,7 +499,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/priorityjewelsltd/PJL01",
-      "last_updated_ist": "2026-08-30 14:44:43"
+      "last_updated_ist": "2026-08-31 15:16:14"
     },
     {
       "company_name": "Deepa Jewellers Ltd",
@@ -519,7 +519,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/deepajewellersltd/DJL",
-      "last_updated_ist": "2026-08-30 14:44:43"
+      "last_updated_ist": "2026-08-31 15:16:14"
     },
     {
       "company_name": "Rays of Belief Ltd",
@@ -539,7 +539,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/raysbeliefltd/RoB",
-      "last_updated_ist": "2026-08-30 14:44:43"
+      "last_updated_ist": "2026-08-31 15:16:14"
     },
     {
       "company_name": "Complete Sports and Management India Ltd",
@@ -645,21 +645,21 @@
       "company_name": "Purple Style Labs Ltd",
       "applied": "",
       "got_ipo": "",
-      "ipo_status": "Upcoming",
+      "ipo_status": "Open",
       "open_date": "Aug 31, 2026",
       "close_date": "Sep 02, 2026",
       "allotment_date": "Sep 03, 2026",
       "listing_date": "",
       "lot_size": "",
-      "price_band": "546-575",
+      "price_band": "575",
       "invested": "",
       "listing_price": "",
       "output": "",
-      "total_subsc": "",
+      "total_subsc": "0",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/purplestylelabsltd/PSL05",
-      "last_updated_ist": "2026-08-30 14:44:43"
+      "last_updated_ist": "2026-08-31 15:16:14"
     },
     {
       "company_name": "Q&T Foods Ltd",
