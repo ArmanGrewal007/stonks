@@ -1,5 +1,5 @@
 {
-  "count": 42,
+  "count": 46,
   "rows": [
     {
       "company_name": "Juniper Green Energy",
@@ -459,7 +459,7 @@
       "listing_gain": "5096",
       "listing_gain%": "34",
       "source_url": "https://www.moneycontrol.com/ipo/cables/luminoindustries/LIL08",
-      "last_updated_ist": "2026-09-04 13:29:10"
+      "last_updated_ist": "2026-09-05 13:10:47"
     },
     {
       "company_name": "ESDS Software Solution Ltd",
@@ -473,13 +473,13 @@
       "lot_size": "34",
       "price_band": "429",
       "invested": "14586",
-      "listing_price": "",
-      "output": "",
+      "listing_price": "757",
+      "output": "25738",
       "total_subsc": "136",
-      "listing_gain": "",
-      "listing_gain%": "",
+      "listing_gain": "11152",
+      "listing_gain%": "76",
       "source_url": "https://www.moneycontrol.com/ipo/miscellaneous/esdssoftwaresolution/ESSL",
-      "last_updated_ist": "2026-09-04 13:29:10"
+      "last_updated_ist": "2026-09-05 13:10:47"
     },
     {
       "company_name": "Priority Jewels Ltd",
@@ -493,13 +493,13 @@
       "lot_size": "75",
       "price_band": "200",
       "invested": "15000",
-      "listing_price": "",
-      "output": "",
+      "listing_price": "230",
+      "output": "17250",
       "total_subsc": "100",
-      "listing_gain": "",
-      "listing_gain%": "",
+      "listing_gain": "2250",
+      "listing_gain%": "15",
       "source_url": "https://www.moneycontrol.com/ipo/diamondjewellery/priorityjewels/PJL01",
-      "last_updated_ist": "2026-09-04 13:29:10"
+      "last_updated_ist": "2026-09-05 13:10:47"
     },
     {
       "company_name": "Deepa Jewellers Ltd",
@@ -519,7 +519,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/deepajewellersltd/DJL",
-      "last_updated_ist": "2026-09-04 13:29:10"
+      "last_updated_ist": "2026-09-05 13:10:47"
     },
     {
       "company_name": "Rays of Belief Ltd",
@@ -539,7 +539,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/raysbelief/RoB",
-      "last_updated_ist": "2026-09-04 13:29:10"
+      "last_updated_ist": "2026-09-05 13:10:47"
     },
     {
       "company_name": "Pranav Constructions Ltd",
@@ -559,7 +559,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/pranavconstructionsltd/PCL02",
-      "last_updated_ist": "2026-09-04 13:29:10"
+      "last_updated_ist": "2026-09-05 13:10:47"
     },
     {
       "company_name": "Glass Wall Systems India Ltd",
@@ -579,7 +579,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/glasswallsystemsindialtd/GWSIL",
-      "last_updated_ist": "2026-09-04 13:29:10"
+      "last_updated_ist": "2026-09-05 13:10:47"
     },
     {
       "company_name": "Kanohar Electricals Ltd",
@@ -599,7 +599,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/kanoharelectricalsltd/KEL09",
-      "last_updated_ist": "2026-09-04 13:29:10"
+      "last_updated_ist": "2026-09-05 13:10:47"
     },
     {
       "company_name": "Prasol Chemicals Ltd",
@@ -619,7 +619,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/prasolchemicalsltd/PCL03",
-      "last_updated_ist": "2026-09-04 13:29:10"
+      "last_updated_ist": "2026-09-05 13:10:47"
     },
     {
       "company_name": "Asset Reconstruction Company India Ltd",
@@ -639,7 +639,87 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/assetreconstructioncompanyindialtd/ARCIL",
-      "last_updated_ist": "2026-09-04 13:29:10"
+      "last_updated_ist": "2026-09-05 13:10:47"
+    },
+    {
+      "company_name": "Karamtara Engineering Ltd",
+      "applied": "",
+      "got_ipo": "",
+      "ipo_status": "Upcoming",
+      "open_date": "Sep 09, 2026",
+      "close_date": "Sep 11, 2026",
+      "allotment_date": "Sep 15, 2026",
+      "listing_date": "Sep 17, 2026",
+      "lot_size": "59",
+      "price_band": "241-254",
+      "invested": "14986",
+      "listing_price": "",
+      "output": "",
+      "total_subsc": "",
+      "listing_gain": "",
+      "listing_gain%": "",
+      "source_url": "https://www.moneycontrol.com/ipo/karamtaraengineeringltd/K05",
+      "last_updated_ist": "2026-09-05 13:10:47"
+    },
+    {
+      "company_name": "Lcc Projects Ltd",
+      "applied": "",
+      "got_ipo": "",
+      "ipo_status": "Upcoming",
+      "open_date": "Sep 09, 2026",
+      "close_date": "Sep 11, 2026",
+      "allotment_date": "Sep 15, 2026",
+      "listing_date": "Sep 17, 2026",
+      "lot_size": "102",
+      "price_band": "139-146",
+      "invested": "14892",
+      "listing_price": "",
+      "output": "",
+      "total_subsc": "",
+      "listing_gain": "",
+      "listing_gain%": "",
+      "source_url": "https://www.moneycontrol.com/ipo/lccprojectsltd/LPL02",
+      "last_updated_ist": "2026-09-05 13:10:47"
+    },
+    {
+      "company_name": "Manipal Payment and Identity Solutions Ltd",
+      "applied": "",
+      "got_ipo": "",
+      "ipo_status": "Upcoming",
+      "open_date": "Sep 09, 2026",
+      "close_date": "Sep 11, 2026",
+      "allotment_date": "Sep 15, 2026",
+      "listing_date": "Sep 17, 2026",
+      "lot_size": "44",
+      "price_band": "322-339",
+      "invested": "14916",
+      "listing_price": "",
+      "output": "",
+      "total_subsc": "",
+      "listing_gain": "",
+      "listing_gain%": "",
+      "source_url": "https://www.moneycontrol.com/ipo/manipalpaymentidentitysolutionsltd/MPISL",
+      "last_updated_ist": "2026-09-05 13:10:47"
+    },
+    {
+      "company_name": "Rentomojo Ltd",
+      "applied": "",
+      "got_ipo": "",
+      "ipo_status": "Upcoming",
+      "open_date": "Sep 09, 2026",
+      "close_date": "Sep 11, 2026",
+      "allotment_date": "Sep 15, 2026",
+      "listing_date": "Sep 17, 2026",
+      "lot_size": "37",
+      "price_band": "384-404",
+      "invested": "14948",
+      "listing_price": "",
+      "output": "",
+      "total_subsc": "",
+      "listing_gain": "",
+      "listing_gain%": "",
+      "source_url": "https://www.moneycontrol.com/ipo/rentomojoltd/RL10",
+      "last_updated_ist": "2026-09-05 13:10:47"
     },
     {
       "company_name": "Veegaland Developers Ltd",
@@ -659,7 +739,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/veegalanddevelopersltd/VDL02",
-      "last_updated_ist": "2026-09-04 13:29:10"
+      "last_updated_ist": "2026-09-05 13:10:47"
     },
     {
       "company_name": "Complete Sports and Management India Ltd",
