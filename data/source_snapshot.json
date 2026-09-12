@@ -109,7 +109,7 @@
             "total_subs": 0.52,
             "qib": 0.1,
             "nii": 0.86,
-            "retail": 0.56,
+            "retail": 0.57,
             "others": null
           },
           {
@@ -183,8 +183,8 @@
             "issue_size": 171088000,
             "document_code": "PR0067B.pdf",
             "short_desc": "IPO opens for subscription on 2026-09-11 and closes on 2026-09-16. Century Business Media IPO price band is set at 70.00 to 74.00 per share.",
-            "total": 1.06,
-            "total_subs": 1.06,
+            "total": 1.07,
+            "total_subs": 1.07,
             "qib": 3.51,
             "nii": 0.3,
             "retail": 0.12,
@@ -213,7 +213,7 @@
             "total_subs": 0.28,
             "qib": 1.02,
             "nii": 0.07,
-            "retail": 0.26,
+            "retail": 0.27,
             "others": null
           },
           {
@@ -311,7 +311,7 @@
             "from_issue_price": 1700,
             "to_issue_price": 1785,
             "issue_size": 225689422035,
-            "document_code": null,
+            "document_code": "PR0067J.pdf",
             "short_desc": "IPO opens for subscription on 2026-09-17 and closes on 2026-09-21. National Stock Exchange of India IPO price band is set at 1700.00 to 1785.00 per share.",
             "total": null,
             "total_subs": null,
@@ -441,7 +441,7 @@
             "from_issue_price": 112,
             "to_issue_price": 118,
             "issue_size": 425224800,
-            "document_code": null,
+            "document_code": "PR0067L.pdf",
             "short_desc": "IPO opens for subscription on 2026-09-17 and closes on 2026-09-21. SpectraA Technology Solutions Ltd IPO price band is set at 112.00 to 118.00 per share.",
             "total": null,
             "total_subs": null,
@@ -831,7 +831,7 @@
             "lot_size": 1600,
             "issue_price": 74,
             "issue_size": 171088000,
-            "total_subs": 1.06,
+            "total_subs": 1.07,
             "nii": 0.3
           },
           {
