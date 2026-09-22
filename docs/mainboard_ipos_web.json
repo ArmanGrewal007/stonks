@@ -1,5 +1,5 @@
 {
-  "count": 62,
+  "count": 66,
   "rows": [
     {
       "company_name": "Juniper Green Energy",
@@ -765,7 +765,7 @@
       "company_name": "Manika Plastech",
       "applied": "",
       "got_ipo": "",
-      "ipo_status": "Closed",
+      "ipo_status": "Listed",
       "open_date": "Sep 11, 2026",
       "close_date": "Sep 16, 2026",
       "allotment_date": "Sep 17, 2026",
@@ -773,13 +773,13 @@
       "lot_size": "348",
       "price_band": "43",
       "invested": "14964",
-      "listing_price": "",
-      "output": "",
+      "listing_price": "43",
+      "output": "14964",
       "total_subsc": "28",
-      "listing_gain": "",
-      "listing_gain%": "",
-      "source_url": "https://www.moneycontrol.com/ipo/manikaplastech/MPL06",
-      "last_updated_ist": "2026-09-20 14:06:06"
+      "listing_gain": "0",
+      "listing_gain%": "0",
+      "source_url": "https://www.moneycontrol.com/ipo/plastic-products/manikaplastech/MPL06",
+      "last_updated_ist": "2026-09-22 14:03:25"
     },
     {
       "company_name": "Hero Motors Ltd",
@@ -799,7 +799,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/heromotors/HML02",
-      "last_updated_ist": "2026-09-20 14:06:06"
+      "last_updated_ist": "2026-09-22 14:03:25"
     },
     {
       "company_name": "Jindal Supreme India Ltd",
@@ -819,13 +819,13 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/jindalsupremeindia/JSI01",
-      "last_updated_ist": "2026-09-20 14:06:06"
+      "last_updated_ist": "2026-09-22 14:03:25"
     },
     {
       "company_name": "SS Retail Ltd",
       "applied": "",
       "got_ipo": "",
-      "ipo_status": "Open",
+      "ipo_status": "Closed",
       "open_date": "Sep 16, 2026",
       "close_date": "Sep 18, 2026",
       "allotment_date": "Sep 21, 2026",
@@ -835,17 +835,17 @@
       "invested": "14840",
       "listing_price": "",
       "output": "",
-      "total_subsc": "27",
+      "total_subsc": "103",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/ssretail/SRL03",
-      "last_updated_ist": "2026-09-18 23:59:33"
+      "last_updated_ist": "2026-09-22 14:03:25"
     },
     {
       "company_name": "National Stock Exchange of India",
       "applied": "",
       "got_ipo": "",
-      "ipo_status": "Open",
+      "ipo_status": "Closed",
       "open_date": "Sep 17, 2026",
       "close_date": "Sep 21, 2026",
       "allotment_date": "Sep 22, 2026",
@@ -855,17 +855,17 @@
       "invested": "14280",
       "listing_price": "",
       "output": "",
-      "total_subsc": "1",
+      "total_subsc": "3",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/nationalstockexchangeindia/NSEoIL",
-      "last_updated_ist": "2026-09-20 14:06:06"
+      "last_updated_ist": "2026-09-22 14:03:25"
     },
     {
       "company_name": "Sonaselection India Ltd",
       "applied": "",
       "got_ipo": "",
-      "ipo_status": "Open",
+      "ipo_status": "Closed",
       "open_date": "Sep 17, 2026",
       "close_date": "Sep 21, 2026",
       "allotment_date": "Sep 22, 2026",
@@ -879,27 +879,27 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/sonaselectionindia/SIL36",
-      "last_updated_ist": "2026-09-20 14:06:06"
+      "last_updated_ist": "2026-09-22 14:03:25"
     },
     {
       "company_name": "Varmora Granito Ltd",
       "applied": "",
       "got_ipo": "",
-      "ipo_status": "Upcoming",
+      "ipo_status": "Open",
       "open_date": "Sep 22, 2026",
       "close_date": "Sep 24, 2026",
       "allotment_date": "Sep 25, 2026",
       "listing_date": "Sep 29, 2026",
       "lot_size": "101",
-      "price_band": "140-148",
+      "price_band": "148",
       "invested": "14948",
       "listing_price": "",
       "output": "",
       "total_subsc": "",
       "listing_gain": "",
       "listing_gain%": "",
-      "source_url": "https://www.moneycontrol.com/ipo/varmoragranitoltd/VGL",
-      "last_updated_ist": "2026-09-20 14:06:06"
+      "source_url": "https://www.moneycontrol.com/ipo/varmoragranito/VGL",
+      "last_updated_ist": "2026-09-22 14:03:25"
     },
     {
       "company_name": "Adroit Industries India Ltd",
@@ -918,8 +918,8 @@
       "total_subsc": "",
       "listing_gain": "",
       "listing_gain%": "",
-      "source_url": "https://www.moneycontrol.com/ipo/adroitindustriesindialtd/AIIL01",
-      "last_updated_ist": "2026-09-20 14:06:06"
+      "source_url": "https://www.moneycontrol.com/ipo/adroitindustriesindia/AIIL01",
+      "last_updated_ist": "2026-09-22 14:03:25"
     },
     {
       "company_name": "ArMee Infotech Ltd",
@@ -938,8 +938,8 @@
       "total_subsc": "",
       "listing_gain": "",
       "listing_gain%": "",
-      "source_url": "https://www.moneycontrol.com/ipo/armeeinfotechltd/AIL12",
-      "last_updated_ist": "2026-09-20 14:06:06"
+      "source_url": "https://www.moneycontrol.com/ipo/armeeinfotech/AIL12",
+      "last_updated_ist": "2026-09-22 14:03:25"
     },
     {
       "company_name": "Elevate Campuses Ltd",
@@ -958,8 +958,8 @@
       "total_subsc": "",
       "listing_gain": "",
       "listing_gain%": "",
-      "source_url": "https://www.moneycontrol.com/ipo/elevatecampusesltd/ECL04",
-      "last_updated_ist": "2026-09-20 14:06:06"
+      "source_url": "https://www.moneycontrol.com/ipo/elevatecampuses/ECL04",
+      "last_updated_ist": "2026-09-22 14:03:25"
     },
     {
       "company_name": "Swastika Infra Ltd",
@@ -978,8 +978,8 @@
       "total_subsc": "",
       "listing_gain": "",
       "listing_gain%": "",
-      "source_url": "https://www.moneycontrol.com/ipo/swastikainfraltd/SIL37",
-      "last_updated_ist": "2026-09-20 14:06:06"
+      "source_url": "https://www.moneycontrol.com/ipo/swastikainfra/SIL37",
+      "last_updated_ist": "2026-09-22 14:03:25"
     },
     {
       "company_name": "A-One Steels India Ltd",
@@ -998,8 +998,28 @@
       "total_subsc": "",
       "listing_gain": "",
       "listing_gain%": "",
-      "source_url": "https://www.moneycontrol.com/ipo/a-onesteelsindialtd/ASIL",
-      "last_updated_ist": "2026-09-20 14:06:06"
+      "source_url": "https://www.moneycontrol.com/ipo/a-onesteelsindia/ASIL",
+      "last_updated_ist": "2026-09-22 14:03:25"
+    },
+    {
+      "company_name": "Moneyview Ltd",
+      "applied": "",
+      "got_ipo": "",
+      "ipo_status": "Upcoming",
+      "open_date": "Sep 24, 2026",
+      "close_date": "Sep 28, 2026",
+      "allotment_date": "Sep 29, 2026",
+      "listing_date": "Oct 01, 2026",
+      "lot_size": "441",
+      "price_band": "32-34",
+      "invested": "14994",
+      "listing_price": "",
+      "output": "",
+      "total_subsc": "",
+      "listing_gain": "",
+      "listing_gain%": "",
+      "source_url": "https://www.moneycontrol.com/ipo/moneyviewltd/ML15",
+      "last_updated_ist": "2026-09-22 14:03:25"
     },
     {
       "company_name": "Complete Sports and Management India Ltd",
@@ -1020,6 +1040,26 @@
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/completesportsmanagementindialtd/CSMIL",
       "last_updated_ist": "2026-08-25 09:29:52"
+    },
+    {
+      "company_name": "Coreintegra Consulting Services",
+      "applied": "",
+      "got_ipo": "",
+      "ipo_status": "Upcoming",
+      "open_date": "Sep 23, 2026",
+      "close_date": "Sep 25, 2026",
+      "allotment_date": "Sep 28, 2026",
+      "listing_date": "",
+      "lot_size": "",
+      "price_band": "74-78",
+      "invested": "",
+      "listing_price": "",
+      "output": "",
+      "total_subsc": "",
+      "listing_gain": "",
+      "listing_gain%": "",
+      "source_url": "https://www.moneycontrol.com/ipo/coreintegraconsultingservices/CCSL",
+      "last_updated_ist": "2026-09-22 14:03:25"
     },
     {
       "company_name": "Credent Connect N Care Ltd",
@@ -1060,6 +1100,26 @@
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/farmpeaceltd/FPL02",
       "last_updated_ist": "2026-08-27 19:43:03"
+    },
+    {
+      "company_name": "Green Asia Impex Ltd",
+      "applied": "",
+      "got_ipo": "",
+      "ipo_status": "Upcoming",
+      "open_date": "Sep 24, 2026",
+      "close_date": "Sep 28, 2026",
+      "allotment_date": "Sep 29, 2026",
+      "listing_date": "",
+      "lot_size": "",
+      "price_band": "85-90",
+      "invested": "",
+      "listing_price": "",
+      "output": "",
+      "total_subsc": "",
+      "listing_gain": "",
+      "listing_gain%": "",
+      "source_url": "https://www.moneycontrol.com/ipo/greenasiaimpexltd/GAIL01",
+      "last_updated_ist": "2026-09-22 14:03:25"
     },
     {
       "company_name": "Kheria Autocomp Ltd",
@@ -1120,6 +1180,26 @@
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/palucktechnologiesltd/PTL08",
       "last_updated_ist": "2026-08-25 09:29:52"
+    },
+    {
+      "company_name": "Peshwa Wheat",
+      "applied": "",
+      "got_ipo": "",
+      "ipo_status": "Upcoming",
+      "open_date": "Sep 24, 2026",
+      "close_date": "Sep 28, 2026",
+      "allotment_date": "Sep 29, 2026",
+      "listing_date": "",
+      "lot_size": "",
+      "price_band": "95-101",
+      "invested": "",
+      "listing_price": "",
+      "output": "",
+      "total_subsc": "",
+      "listing_gain": "",
+      "listing_gain%": "",
+      "source_url": "https://www.moneycontrol.com/ipo/peshwawheat/PWL01",
+      "last_updated_ist": "2026-09-22 14:03:25"
     },
     {
       "company_name": "Purple Style Labs Ltd",
