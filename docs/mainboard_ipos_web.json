@@ -985,7 +985,7 @@
       "company_name": "A-One Steels India Ltd",
       "applied": "",
       "got_ipo": "",
-      "ipo_status": "Closed",
+      "ipo_status": "Listed",
       "open_date": "Sep 24, 2026",
       "close_date": "Sep 28, 2026",
       "allotment_date": "Sep 29, 2026",
@@ -993,19 +993,19 @@
       "lot_size": "37",
       "price_band": "405",
       "invested": "14985",
-      "listing_price": "",
-      "output": "",
+      "listing_price": "455",
+      "output": "16835",
       "total_subsc": "12",
-      "listing_gain": "",
-      "listing_gain%": "",
-      "source_url": "https://www.moneycontrol.com/ipo/a-onesteelsindia/ASIL",
-      "last_updated_ist": "2026-09-30 15:13:12"
+      "listing_gain": "1850",
+      "listing_gain%": "12",
+      "source_url": "https://www.moneycontrol.com/ipo/ironsteel/a-onesteelsindia/ASIL",
+      "last_updated_ist": "2026-10-02 15:17:02"
     },
     {
       "company_name": "Moneyview Ltd",
       "applied": "",
       "got_ipo": "",
-      "ipo_status": "Open",
+      "ipo_status": "Listed",
       "open_date": "Sep 24, 2026",
       "close_date": "Sep 28, 2026",
       "allotment_date": "Sep 29, 2026",
@@ -1013,13 +1013,13 @@
       "lot_size": "441",
       "price_band": "34",
       "invested": "14994",
-      "listing_price": "",
-      "output": "",
-      "total_subsc": "30",
-      "listing_gain": "",
-      "listing_gain%": "",
-      "source_url": "https://www.moneycontrol.com/ipo/moneyviewltd/ML15",
-      "last_updated_ist": "2026-09-28 15:18:07"
+      "listing_price": "55",
+      "output": "24255",
+      "total_subsc": "98",
+      "listing_gain": "9261",
+      "listing_gain%": "62",
+      "source_url": "https://www.moneycontrol.com/ipo/finance-nbfc/moneyview/ML15",
+      "last_updated_ist": "2026-10-02 15:17:02"
     },
     {
       "company_name": "AceVector Ltd",
@@ -1039,7 +1039,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/acevectorltd/AL19",
-      "last_updated_ist": "2026-09-30 15:13:12"
+      "last_updated_ist": "2026-10-02 15:17:02"
     },
     {
       "company_name": "German Green Steel & Power Ltd",
@@ -1175,11 +1175,11 @@
       "invested": "15000",
       "listing_price": "",
       "output": "",
-      "total_subsc": "0",
+      "total_subsc": "1",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/nityasgemsjewelleryltd/NGJL",
-      "last_updated_ist": "2026-09-30 15:13:12"
+      "last_updated_ist": "2026-10-02 15:17:02"
     },
     {
       "company_name": "Vishal Nirmiti Ltd",
@@ -1195,11 +1195,11 @@
       "invested": "14960",
       "listing_price": "",
       "output": "",
-      "total_subsc": "0",
+      "total_subsc": "1",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/vishalnirmitiltd/VNL01",
-      "last_updated_ist": "2026-09-30 15:13:12"
+      "last_updated_ist": "2026-10-02 15:17:02"
     },
     {
       "company_name": "Complete Sports and Management India Ltd",
