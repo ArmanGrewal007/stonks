@@ -352,7 +352,7 @@
         "closedIpo": [
           {
             "sc_id": "AL22",
-            "company_name": "AceVector Ltd",
+            "company_name": "AceVector",
             "short_name": null,
             "company_code": 17170043,
             "url": "/acevectorltd/AL19",
@@ -440,7 +440,7 @@
           },
           {
             "sc_id": "DRL03",
-            "company_name": "Dudani Retail Ltd",
+            "company_name": "Dudani Retail",
             "short_name": null,
             "company_code": 10780065,
             "url": "/dudaniretailltd/DRL03",
@@ -557,24 +557,6 @@
             "todays_gain": null
           },
           {
-            "sc_id": "UFL03",
-            "company_name": "Unitec Fibres",
-            "company_code": 12160036,
-            "url": "textilesapparel/unitecfibres/UFL03",
-            "ipo_type": "SME",
-            "listing_date": "2026-09-30",
-            "issue_price": 88,
-            "issue_size": 344678400,
-            "total_subs": 3.72,
-            "last_price": "95.13",
-            "change": "4.53",
-            "perChange": "5.00",
-            "dt_open": null,
-            "dt_close": null,
-            "listing_gain": null,
-            "todays_gain": null
-          },
-          {
             "sc_id": "PLL02",
             "company_name": "Pooja Logistics",
             "company_code": 17160594,
@@ -591,6 +573,24 @@
             "dt_close": 123.9,
             "listing_gain": 2.608695652173913,
             "todays_gain": 3.389830508474576
+          },
+          {
+            "sc_id": "UFL03",
+            "company_name": "Unitec Fibres",
+            "company_code": 12160036,
+            "url": "textilesapparel/unitecfibres/UFL03",
+            "ipo_type": "SME",
+            "listing_date": "2026-09-30",
+            "issue_price": 88,
+            "issue_size": 344678400,
+            "total_subs": 3.72,
+            "last_price": "95.13",
+            "change": "4.53",
+            "perChange": "5.00",
+            "dt_open": null,
+            "dt_close": null,
+            "listing_gain": null,
+            "todays_gain": null
           }
         ],
         "fundingCalculator": {
