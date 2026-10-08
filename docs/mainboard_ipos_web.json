@@ -1,5 +1,5 @@
 {
-  "count": 79,
+  "count": 82,
   "rows": [
     {
       "company_name": "Juniper Green Energy",
@@ -1165,7 +1165,7 @@
       "company_name": "Nityas Gems and Jewellery Ltd",
       "applied": "",
       "got_ipo": "",
-      "ipo_status": "Closed",
+      "ipo_status": "Listed",
       "open_date": "Sep 30, 2026",
       "close_date": "Oct 05, 2026",
       "allotment_date": "Oct 06, 2026",
@@ -1178,14 +1178,14 @@
       "total_subsc": "2",
       "listing_gain": "",
       "listing_gain%": "",
-      "source_url": "https://www.moneycontrol.com/ipo/nityasgemsjewellery/NGJL",
-      "last_updated_ist": "2026-10-07 15:46:42"
+      "source_url": "https://www.moneycontrol.com/ipo/diamondjewellery/nityasgemsjewellery/NGJL",
+      "last_updated_ist": "2026-10-08 16:06:11"
     },
     {
       "company_name": "Vishal Nirmiti Ltd",
       "applied": "",
       "got_ipo": "",
-      "ipo_status": "Open",
+      "ipo_status": "Listed",
       "open_date": "Sep 30, 2026",
       "close_date": "Oct 05, 2026",
       "allotment_date": "Oct 06, 2026",
@@ -1195,11 +1195,31 @@
       "invested": "14960",
       "listing_price": "",
       "output": "",
-      "total_subsc": "1",
+      "total_subsc": "2",
       "listing_gain": "",
       "listing_gain%": "",
-      "source_url": "https://www.moneycontrol.com/ipo/vishalnirmitiltd/VNL01",
-      "last_updated_ist": "2026-10-05 15:57:40"
+      "source_url": "https://www.moneycontrol.com/ipo/other-construction-materials/vishalnirmiti/VNL01",
+      "last_updated_ist": "2026-10-08 16:06:11"
+    },
+    {
+      "company_name": "HD Fire Protect Ltd",
+      "applied": "",
+      "got_ipo": "",
+      "ipo_status": "Upcoming",
+      "open_date": "Oct 13, 2026",
+      "close_date": "Oct 15, 2026",
+      "allotment_date": "Oct 16, 2026",
+      "listing_date": "Oct 21, 2026",
+      "lot_size": "55",
+      "price_band": "258-271",
+      "invested": "14905",
+      "listing_price": "",
+      "output": "",
+      "total_subsc": "",
+      "listing_gain": "",
+      "listing_gain%": "",
+      "source_url": "https://www.moneycontrol.com/ipo/hdfireprotectltd/HFP",
+      "last_updated_ist": "2026-10-08 16:06:11"
     },
     {
       "company_name": "Complete Sports and Management India Ltd",
@@ -1482,6 +1502,26 @@
       "last_updated_ist": "2026-08-10 10:24:29"
     },
     {
+      "company_name": "Ravita Engineering Services Ltd",
+      "applied": "",
+      "got_ipo": "",
+      "ipo_status": "Upcoming",
+      "open_date": "Oct 13, 2026",
+      "close_date": "Oct 15, 2026",
+      "allotment_date": "Oct 16, 2026",
+      "listing_date": "",
+      "lot_size": "",
+      "price_band": "105-112",
+      "invested": "",
+      "listing_price": "",
+      "output": "",
+      "total_subsc": "",
+      "listing_gain": "",
+      "listing_gain%": "",
+      "source_url": "https://www.moneycontrol.com/ipo/ravitaengineeringservicesltd/RESL",
+      "last_updated_ist": "2026-10-08 16:06:11"
+    },
+    {
       "company_name": "Shanti Inorganics Ltd",
       "applied": "",
       "got_ipo": "",
@@ -1560,6 +1600,26 @@
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/vanselectroengineeringsltd/VEL03",
       "last_updated_ist": "2026-09-25 14:20:09"
+    },
+    {
+      "company_name": "Vaibhav Vyapaar Ltd",
+      "applied": "",
+      "got_ipo": "",
+      "ipo_status": "Upcoming",
+      "open_date": "Oct 13, 2026",
+      "close_date": "Oct 15, 2026",
+      "allotment_date": "Oct 16, 2026",
+      "listing_date": "",
+      "lot_size": "",
+      "price_band": "50-52",
+      "invested": "",
+      "listing_price": "",
+      "output": "",
+      "total_subsc": "",
+      "listing_gain": "",
+      "listing_gain%": "",
+      "source_url": "https://www.moneycontrol.com/ipo/vaibhavvyapaarltd/VVL01",
+      "last_updated_ist": "2026-10-08 16:06:11"
     },
     {
       "company_name": "Vama Wovenfab Ltd",
