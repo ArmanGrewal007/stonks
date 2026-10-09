@@ -1,5 +1,5 @@
 {
-  "count": 82,
+  "count": 83,
   "rows": [
     {
       "company_name": "Juniper Green Energy",
@@ -1193,13 +1193,13 @@
       "lot_size": "68",
       "price_band": "220",
       "invested": "14960",
-      "listing_price": "",
-      "output": "",
+      "listing_price": "215",
+      "output": "14620",
       "total_subsc": "2",
-      "listing_gain": "",
-      "listing_gain%": "",
+      "listing_gain": "-340",
+      "listing_gain%": "-2",
       "source_url": "https://www.moneycontrol.com/ipo/other-construction-materials/vishalnirmiti/VNL01",
-      "last_updated_ist": "2026-10-08 16:06:11"
+      "last_updated_ist": "2026-10-09 16:04:28"
     },
     {
       "company_name": "HD Fire Protect Ltd",
@@ -1219,7 +1219,27 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/hdfireprotectltd/HFP",
-      "last_updated_ist": "2026-10-08 16:06:11"
+      "last_updated_ist": "2026-10-09 16:04:28"
+    },
+    {
+      "company_name": "Fusion CX Ltd",
+      "applied": "",
+      "got_ipo": "",
+      "ipo_status": "Upcoming",
+      "open_date": "Oct 14, 2026",
+      "close_date": "Oct 16, 2026",
+      "allotment_date": "Oct 19, 2026",
+      "listing_date": "Oct 22, 2026",
+      "lot_size": "51",
+      "price_band": "275-289",
+      "invested": "14739",
+      "listing_price": "",
+      "output": "",
+      "total_subsc": "",
+      "listing_gain": "",
+      "listing_gain%": "",
+      "source_url": "https://www.moneycontrol.com/ipo/",
+      "last_updated_ist": "2026-10-09 16:04:28"
     },
     {
       "company_name": "Complete Sports and Management India Ltd",
@@ -1510,9 +1530,9 @@
       "close_date": "Oct 15, 2026",
       "allotment_date": "Oct 16, 2026",
       "listing_date": "",
-      "lot_size": "",
+      "lot_size": "1200",
       "price_band": "105-112",
-      "invested": "",
+      "invested": "134400",
       "listing_price": "",
       "output": "",
       "total_subsc": "",
@@ -1610,9 +1630,9 @@
       "close_date": "Oct 15, 2026",
       "allotment_date": "Oct 16, 2026",
       "listing_date": "",
-      "lot_size": "",
+      "lot_size": "2000",
       "price_band": "50-52",
-      "invested": "",
+      "invested": "104000",
       "listing_price": "",
       "output": "",
       "total_subsc": "",
