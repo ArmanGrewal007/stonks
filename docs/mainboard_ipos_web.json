@@ -1,5 +1,5 @@
 {
-  "count": 83,
+  "count": 86,
   "rows": [
     {
       "company_name": "Juniper Green Energy",
@@ -1219,7 +1219,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/hdfireprotectltd/HFP",
-      "last_updated_ist": "2026-10-11 15:31:12"
+      "last_updated_ist": "2026-10-12 16:21:01"
     },
     {
       "company_name": "Fusion CX Ltd",
@@ -1239,7 +1239,67 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/fusioncxltd/FCL02",
-      "last_updated_ist": "2026-10-11 15:31:12"
+      "last_updated_ist": "2026-10-12 16:21:01"
+    },
+    {
+      "company_name": "Bonfiglioli Transmissions Ltd",
+      "applied": "",
+      "got_ipo": "",
+      "ipo_status": "Upcoming",
+      "open_date": "Oct 15, 2026",
+      "close_date": "Oct 19, 2026",
+      "allotment_date": "Oct 21, 2026",
+      "listing_date": "Oct 23, 2026",
+      "lot_size": "25",
+      "price_band": "558-586",
+      "invested": "14650",
+      "listing_price": "",
+      "output": "",
+      "total_subsc": "",
+      "listing_gain": "",
+      "listing_gain%": "",
+      "source_url": "https://www.moneycontrol.com/ipo/bonfigliolitransmissionsltd/BTL04",
+      "last_updated_ist": "2026-10-12 16:21:01"
+    },
+    {
+      "company_name": "Tonbo Imaging India Ltd",
+      "applied": "",
+      "got_ipo": "",
+      "ipo_status": "Upcoming",
+      "open_date": "Oct 15, 2026",
+      "close_date": "Oct 19, 2026",
+      "allotment_date": "Oct 21, 2026",
+      "listing_date": "Oct 23, 2026",
+      "lot_size": "21",
+      "price_band": "665-700",
+      "invested": "14700",
+      "listing_price": "",
+      "output": "",
+      "total_subsc": "",
+      "listing_gain": "",
+      "listing_gain%": "",
+      "source_url": "https://www.moneycontrol.com/ipo/tonboimagingindialtd/TIIL",
+      "last_updated_ist": "2026-10-12 16:21:01"
+    },
+    {
+      "company_name": "Zetwerk Manufacturing Businesses Ltd",
+      "applied": "",
+      "got_ipo": "",
+      "ipo_status": "Upcoming",
+      "open_date": "Oct 15, 2026",
+      "close_date": "Oct 19, 2026",
+      "allotment_date": "Oct 21, 2026",
+      "listing_date": "Oct 23, 2026",
+      "lot_size": "99",
+      "price_band": "143-151",
+      "invested": "14949",
+      "listing_price": "",
+      "output": "",
+      "total_subsc": "",
+      "listing_gain": "",
+      "listing_gain%": "",
+      "source_url": "https://www.moneycontrol.com/ipo/zetwerkmanufacturingbusinessesltd/ZMBL",
+      "last_updated_ist": "2026-10-12 16:21:01"
     },
     {
       "company_name": "Complete Sports and Management India Ltd",
