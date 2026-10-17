@@ -5,7 +5,7 @@
       "isApp": false,
       "appSource": "web",
       "darkMode": false,
-      "country": "AE",
+      "country": "IN",
       "data": [],
       "ipoData": {
         "open_Upcoming": [
@@ -28,12 +28,12 @@
             "issue_size": 25338078612,
             "document_code": "PR00697.pdf",
             "short_desc": "IPO opens for subscription on 2026-10-15 and closes on 2026-10-19. Bonfiglioli Transmissions IPO price band is set at 558.00 to 586.00 per share.",
-            "total": 0.74,
-            "total_subs": 0.74,
-            "qib": 0.08,
-            "nii": 1.24,
-            "retail": 0.91,
-            "others": 1.84
+            "total": 0.99,
+            "total_subs": 0.99,
+            "qib": 0.16,
+            "nii": 1.71,
+            "retail": 1.16,
+            "others": 2.1
           },
           {
             "ipo_status": "Open",
@@ -54,12 +54,12 @@
             "issue_size": 4754807904,
             "document_code": "PR00699.pdf",
             "short_desc": "IPO opens for subscription on 2026-10-15 and closes on 2026-10-19. Sahajanand Medical Technologies  IPO price band is set at 327.00 to 344.00 per share.",
-            "total": 0.5,
-            "total_subs": 0.5,
-            "qib": 0.37,
-            "nii": 0.37,
-            "retail": 0.66,
-            "others": 0.12
+            "total": 0.82,
+            "total_subs": 0.82,
+            "qib": 1.12,
+            "nii": 0.51,
+            "retail": 0.83,
+            "others": 0.14
           },
           {
             "ipo_status": "Open",
@@ -80,12 +80,12 @@
             "issue_size": 8521832200,
             "document_code": "PR00696.pdf",
             "short_desc": "IPO opens for subscription on 2026-10-15 and closes on 2026-10-19. Tonbo Imaging India IPO price band is set at 665.00 to 700.00 per share.",
-            "total": 6.22,
-            "total_subs": 6.22,
-            "qib": 3.94,
-            "nii": 10.7,
-            "retail": 5.58,
-            "others": 11.05
+            "total": 7.78,
+            "total_subs": 7.78,
+            "qib": 3.95,
+            "nii": 14.35,
+            "retail": 7.13,
+            "others": 13.14
           },
           {
             "ipo_status": "Open",
@@ -106,12 +106,12 @@
             "issue_size": 50123280354,
             "document_code": "PR00698.pdf",
             "short_desc": "IPO opens for subscription on 2026-10-15 and closes on 2026-10-19. Zetwerk Manufacturing Businesses IPO price band is set at 143.00 to 151.00 per share.",
-            "total": 0.26,
-            "total_subs": 0.26,
-            "qib": 0.32,
-            "nii": 0.12,
-            "retail": 0.31,
-            "others": 0.39
+            "total": 0.31,
+            "total_subs": 0.31,
+            "qib": 0.37,
+            "nii": 0.16,
+            "retail": 0.36,
+            "others": 0.48
           },
           {
             "ipo_status": "Open",
@@ -132,11 +132,11 @@
             "issue_size": 599721600,
             "document_code": "PR0069A.pdf",
             "short_desc": "IPO opens for subscription on 2026-10-15 and closes on 2026-10-19. Shellz India IPO price band is set at 170.00 to 179.00 per share.",
-            "total": 0.79,
-            "total_subs": 0.79,
+            "total": 0.91,
+            "total_subs": 0.91,
             "qib": 0,
-            "nii": 1.49,
-            "retail": 0.72,
+            "nii": 1.68,
+            "retail": 0.85,
             "others": null
           },
           {
@@ -237,10 +237,10 @@
             "issue_size": 7020000162,
             "document_code": "PR00695.pdf",
             "lot_size": 51,
-            "total_subs": 1.73,
-            "qib": 0.23,
-            "nii": 2.63,
-            "retail": 4.88,
+            "total_subs": 4.45,
+            "qib": 4.01,
+            "nii": 4.5,
+            "retail": 5.7,
             "allotment_status_check_url": "https://ipostatus.kfintech.com/"
           },
           {
@@ -281,10 +281,10 @@
             "issue_size": 1160544000,
             "document_code": "PR00693.pdf",
             "lot_size": 1200,
-            "total_subs": 2.72,
-            "qib": 2.83,
-            "nii": 3.6,
-            "retail": 2.14,
+            "total_subs": 6.68,
+            "qib": 13.21,
+            "nii": 5.74,
+            "retail": 3.5,
             "allotment_status_check_url": "https://in.mpms.mufg.com/Initial_Offer/public-issues.html"
           },
           {
@@ -474,8 +474,8 @@
             "lot_size": 25,
             "issue_price": 586,
             "issue_size": 25338078612,
-            "total_subs": 0.74,
-            "nii": 1.24
+            "total_subs": 0.99,
+            "nii": 1.71
           },
           {
             "sc_id": "SIL37",
@@ -490,8 +490,8 @@
             "lot_size": 800,
             "issue_price": 179,
             "issue_size": 599721600,
-            "total_subs": 0.79,
-            "nii": 1.49
+            "total_subs": 0.91,
+            "nii": 1.68
           },
           {
             "sc_id": "SMTL",
@@ -506,8 +506,8 @@
             "lot_size": 43,
             "issue_price": 344,
             "issue_size": 4754807904,
-            "total_subs": 0.5,
-            "nii": 0.37
+            "total_subs": 0.82,
+            "nii": 0.51
           },
           {
             "sc_id": "TIIL",
@@ -522,8 +522,8 @@
             "lot_size": 21,
             "issue_price": 700,
             "issue_size": 8521832200,
-            "total_subs": 6.22,
-            "nii": 10.7
+            "total_subs": 7.78,
+            "nii": 14.35
           },
           {
             "sc_id": "ZMBL",
@@ -538,8 +538,8 @@
             "lot_size": 99,
             "issue_price": 151,
             "issue_size": 50123280354,
-            "total_subs": 0.26,
-            "nii": 0.12
+            "total_subs": 0.31,
+            "nii": 0.16
           }
         ],
         "type": "",
@@ -551,25 +551,25 @@
             "headline": "Burma Burma operator Hunger Pangs files IPO draft papers with SEBI",
             "heading": "Burma Burma operator Hunger Pangs files IPO draft papers with SEBI",
             "intro": "The proposed IPO comprises a fresh issue of equity shares worth up to Rs 150 crore and an offer for sale (OFS) of up to 2.79 crore shares by existing shareholders, according to the draft red herring prospectus (DRHP) filed on Friday.",
-            "body": "Hunger Pangs Ltd, which operates the Burma Burma Restaurant &amp; Tea Room chain, has filed preliminary papers with markets regulator Sebi for an initial public offering (IPO) as the company looks to expand its restaurant network across India.\r\n\r\nThe proposed IPO comprises a fresh issue of equity shares worth up to Rs 150 crore and an offer for sale (OFS) of up to 2.79 crore shares by existing shareholders, according to the draft red herring prospectus (DRHP) filed on Friday.\r\n\r\nThe OFS includes shares offered by promoters --Ankit Virendra Gupta and Chirag Narendra Chhajer --promoter group entity Bbigplas Poly Pvt Ltd, investor shareholders Negen Tech Opportunities Angel Fund, Venture Catalysts Angel Growth Fund and L V Angel Fund.\r\n\r\nProceeds from the fresh issue will be used to set up new Burma Burma restaurants across India and for general corporate purposes.\r\n\r\nHunger Pangs operates in the premium Pan-Asian casual dining segment, with its Burma Burma brand specialising in Burmese cuisine.\r\n\r\nAs of July 31, 2026, the company operated 22 restaurants, one delivery kitchen and three warehouses across nine cities in India. Its restaurants are located in premium malls, high streets and corporate parks.\r\n\r\nThe company reported a 46.56 per cent increase in revenue from operations to Rs 155.50 crore in FY26 from Rs 106.10 crore in FY25. Its EBITDA (earnings before interest, taxes, depreciation and amortisation) rose to Rs 25.68 crore from Rs 21.35 crore during the period.\r\n\r\nThe company is looking to expand its restaurant network, explore new brands and cuisines, and strengthen its delivery and direct-to-consumer businesses.\r\n\r\nIts delivery business contributed 10.76 per cent of revenue from operations in FY26.\r\n\r\nThe company also operates the Burma Burma Shop platform and plans to expand its offerings, including ready-to-eat and packaged food products.\r\n\r\nPanthomath Capital Advisors is the sole book-running lead manager to the issue.",
-            "posturl": "news/business/markets/burma-burma-operator-hunger-pangs-files-ipo-draft-papers-with-sebi-14054373.html",
+            "body": "Hunger Pangs Ltd, which operates the Burma Burma Restaurant &amp;amp; Tea Room chain, has filed preliminary papers with markets regulator Sebi for an initial public offering (IPO) as the company looks to expand its restaurant network across India.\r\n\r\nThe proposed IPO comprises a fresh issue of equity shares worth up to Rs 150 crore and an offer for sale (OFS) of up to 2.79 crore shares by existing shareholders, according to the draft red herring prospectus (DRHP) filed on Friday.\r\n\r\nThe OFS includes shares offered by promoters --Ankit Virendra Gupta and Chirag Narendra Chhajer --promoter group entity Bbigplas Poly Pvt Ltd, investor shareholders Negen Tech Opportunities Angel Fund, Venture Catalysts Angel Growth Fund and L V Angel Fund.\r\n\r\nProceeds from the fresh issue will be used to set up new Burma Burma restaurants across India and for general corporate purposes.\r\n\r\nHunger Pangs operates in the premium Pan-Asian casual dining segment, with its Burma Burma brand specialising in Burmese cuisine.\r\n\r\nAs of July 31, 2026, the company operated 22 restaurants, one delivery kitchen and three warehouses across nine cities in India. Its restaurants are located in premium malls, high streets and corporate parks.\r\n\r\nThe company reported a 46.56 per cent increase in revenue from operations to Rs 155.50 crore in FY26 from Rs 106.10 crore in FY25. Its EBITDA (earnings before interest, taxes, depreciation and amortisation) rose to Rs 25.68 crore from Rs 21.35 crore during the period.\r\n\r\nThe company is looking to expand its restaurant network, explore new brands and cuisines, and strengthen its delivery and direct-to-consumer businesses.\r\n\r\nIts delivery business contributed 10.76 per cent of revenue from operations in FY26.\r\n\r\nThe company also operates the Burma Burma Shop platform and plans to expand its offerings, including ready-to-eat and packaged food products.\r\n\r\nPanthomath Capital Advisors is the sole book-running lead manager to the issue.",
+            "posturl": "news/business/ipo/burma-burma-operator-hunger-pangs-files-ipo-draft-papers-with-sebi-14054373.html",
             "is_api_generate": "no",
             "is_non_ai_generate": "yes",
             "creation_date": "20261017124004",
             "creation_date_epoch": 1792221004,
-            "update_date": "20261017124019",
-            "update_date_epoch": 1792221019,
+            "update_date": "20261017220042",
+            "update_date_epoch": 1792254642,
             "microsite_cat_1": "n-a",
             "microsite_cat_2": "n-a",
             "post_type": "news",
-            "tags": "IPO, Burma Burma",
-            "stags": "IPO, Burma Burma",
-            "tag_ids": "223762, 1364471",
-            "tags_slug": "ipo, burma-burma",
-            "categories": "Markets",
-            "scategories": "Markets",
-            "category_ids": "283904",
-            "categories_slug": "markets",
+            "tags": "IPO - News, IPO - Upcoming Issues, Burma Burma",
+            "stags": "IPO - News, IPO - Upcoming Issues, Burma Burma",
+            "tag_ids": "284208, 285536, 1364471",
+            "tags_slug": "ipo-news, ipo-upcoming-issues, burma-burma",
+            "categories": "Business",
+            "scategories": "Business",
+            "category_ids": "282777",
+            "categories_slug": "business",
             "post_image": "https://images.moneycontrol.com/static-mcnews/2026/09/20260925042557_IPO-2025-New-Moneycontrol.jpg",
             "images": {
               "thumbnail": "https://images.moneycontrol.com/static-mcnews/2026/09/20260925042557_IPO-2025-New-Moneycontrol-180x120.jpg",
@@ -584,9 +584,9 @@
             "post_agency": "PTI",
             "seo_keywords": "Burma Burma, IPO news, Hunger Pangs IPO, SEBI, Hunger Pangs files IPO draft papers, Burma Burma news",
             "AUTHOR_ID": "37101",
-            "sub_category": "Markets",
-            "sub_category_id": "283904",
-            "sub_category_slug": "markets",
+            "sub_category": "IPO, Markets",
+            "sub_category_id": "283899, 283904",
+            "sub_category_slug": "ipo, markets",
             "breaking": "",
             "author_name": "Sonalee Borgohain",
             "mp3_path": "https://audio.moneycontrol.com/2026/10/17/14054373.mp3",
