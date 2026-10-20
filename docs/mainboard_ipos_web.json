@@ -1,5 +1,5 @@
 {
-  "count": 89,
+  "count": 91,
   "rows": [
     {
       "company_name": "Juniper Green Energy",
@@ -1219,7 +1219,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/hdfireprotect/HFP",
-      "last_updated_ist": "2026-10-19 14:23:34"
+      "last_updated_ist": "2026-10-20 14:03:23"
     },
     {
       "company_name": "Fusion CX Ltd",
@@ -1239,13 +1239,13 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/fusioncx/FCL02",
-      "last_updated_ist": "2026-10-19 14:23:34"
+      "last_updated_ist": "2026-10-20 14:03:23"
     },
     {
       "company_name": "Bonfiglioli Transmissions Ltd",
       "applied": "",
       "got_ipo": "",
-      "ipo_status": "Open",
+      "ipo_status": "Closed",
       "open_date": "Oct 15, 2026",
       "close_date": "Oct 19, 2026",
       "allotment_date": "Oct 21, 2026",
@@ -1255,17 +1255,17 @@
       "invested": "14650",
       "listing_price": "",
       "output": "",
-      "total_subsc": "1",
+      "total_subsc": "11",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/bonfigliolitransmissions/BTL04",
-      "last_updated_ist": "2026-10-19 14:23:34"
+      "last_updated_ist": "2026-10-20 14:03:23"
     },
     {
       "company_name": "Sahajanand Medical Technologies Ltd",
       "applied": "",
       "got_ipo": "",
-      "ipo_status": "Open",
+      "ipo_status": "Closed",
       "open_date": "Oct 15, 2026",
       "close_date": "Oct 19, 2026",
       "allotment_date": "Oct 21, 2026",
@@ -1275,11 +1275,11 @@
       "invested": "14792",
       "listing_price": "",
       "output": "",
-      "total_subsc": "1",
+      "total_subsc": "2",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/sahajanandmedicaltechnologies/SMTL",
-      "last_updated_ist": "2026-10-19 14:23:34"
+      "last_updated_ist": "2026-10-20 14:03:23"
     },
     {
       "company_name": "Tonbo Imaging India Ltd",
@@ -1339,7 +1339,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/jioplatforms/JPL",
-      "last_updated_ist": "2026-10-19 14:23:34"
+      "last_updated_ist": "2026-10-20 14:03:23"
     },
     {
       "company_name": "Paras Healthcare Ltd",
@@ -1359,7 +1359,27 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/parashealthcare/PHL01",
-      "last_updated_ist": "2026-10-19 14:23:34"
+      "last_updated_ist": "2026-10-20 14:03:23"
+    },
+    {
+      "company_name": "BLS Polymers Ltd",
+      "applied": "",
+      "got_ipo": "",
+      "ipo_status": "Upcoming",
+      "open_date": "Oct 27, 2026",
+      "close_date": "Oct 29, 2026",
+      "allotment_date": "Oct 30, 2026",
+      "listing_date": "",
+      "lot_size": "",
+      "price_band": "142-150",
+      "invested": "",
+      "listing_price": "",
+      "output": "",
+      "total_subsc": "",
+      "listing_gain": "",
+      "listing_gain%": "",
+      "source_url": "https://www.moneycontrol.com/ipo/blspolymersltd/BPL11",
+      "last_updated_ist": "2026-10-20 14:03:23"
     },
     {
       "company_name": "Complete Sports and Management India Ltd",
@@ -1380,6 +1400,26 @@
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/completesportsmanagementindialtd/CSMIL",
       "last_updated_ist": "2026-08-25 09:29:52"
+    },
+    {
+      "company_name": "Core4 Engineers Ltd",
+      "applied": "",
+      "got_ipo": "",
+      "ipo_status": "Upcoming",
+      "open_date": "Oct 23, 2026",
+      "close_date": "Oct 27, 2026",
+      "allotment_date": "Oct 28, 2026",
+      "listing_date": "",
+      "lot_size": "",
+      "price_band": "88-93",
+      "invested": "",
+      "listing_price": "",
+      "output": "",
+      "total_subsc": "",
+      "listing_gain": "",
+      "listing_gain%": "",
+      "source_url": "https://www.moneycontrol.com/ipo/core4engineersltd/CEL05",
+      "last_updated_ist": "2026-10-20 14:03:23"
     },
     {
       "company_name": "Coreintegra Consulting Services",
