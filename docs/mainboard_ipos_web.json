@@ -1,5 +1,5 @@
 {
-  "count": 91,
+  "count": 93,
   "rows": [
     {
       "company_name": "Juniper Green Energy",
@@ -1213,19 +1213,19 @@
       "lot_size": "55",
       "price_band": "271",
       "invested": "14905",
-      "listing_price": "",
-      "output": "",
+      "listing_price": "335",
+      "output": "18425",
       "total_subsc": "132",
-      "listing_gain": "",
-      "listing_gain%": "",
+      "listing_gain": "3520",
+      "listing_gain%": "24",
       "source_url": "https://www.moneycontrol.com/ipo/engineering-industrial-equipments/hdfireprotect/HFP",
-      "last_updated_ist": "2026-10-21 14:05:04"
+      "last_updated_ist": "2026-10-22 14:07:33"
     },
     {
       "company_name": "Fusion CX Ltd",
       "applied": "",
       "got_ipo": "",
-      "ipo_status": "Closed",
+      "ipo_status": "Listed",
       "open_date": "Oct 14, 2026",
       "close_date": "Oct 16, 2026",
       "allotment_date": "Oct 19, 2026",
@@ -1238,8 +1238,8 @@
       "total_subsc": "4",
       "listing_gain": "",
       "listing_gain%": "",
-      "source_url": "https://www.moneycontrol.com/ipo/fusioncx/FCL02",
-      "last_updated_ist": "2026-10-21 14:05:04"
+      "source_url": "https://www.moneycontrol.com/ipo/bpoites/fusioncx/FCL02",
+      "last_updated_ist": "2026-10-22 14:07:33"
     },
     {
       "company_name": "Bonfiglioli Transmissions Ltd",
@@ -1259,7 +1259,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/bonfigliolitransmissions/BTL04",
-      "last_updated_ist": "2026-10-21 14:05:04"
+      "last_updated_ist": "2026-10-22 14:07:33"
     },
     {
       "company_name": "Sahajanand Medical Technologies Ltd",
@@ -1279,7 +1279,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/sahajanandmedicaltechnologies/SMTL",
-      "last_updated_ist": "2026-10-21 14:05:04"
+      "last_updated_ist": "2026-10-22 14:07:33"
     },
     {
       "company_name": "Tonbo Imaging India Ltd",
@@ -1299,7 +1299,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/tonboimagingindia/TIIL",
-      "last_updated_ist": "2026-10-21 14:05:04"
+      "last_updated_ist": "2026-10-22 14:07:33"
     },
     {
       "company_name": "Zetwerk Manufacturing Businesses Ltd",
@@ -1319,7 +1319,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/zetwerkmanufacturingbusinesses/ZMBL",
-      "last_updated_ist": "2026-10-21 14:05:04"
+      "last_updated_ist": "2026-10-22 14:07:33"
     },
     {
       "company_name": "Jio Platforms Ltd",
@@ -1335,11 +1335,11 @@
       "invested": "13428",
       "listing_price": "",
       "output": "",
-      "total_subsc": "",
+      "total_subsc": "3",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/jioplatforms/JPL",
-      "last_updated_ist": "2026-10-21 14:05:04"
+      "last_updated_ist": "2026-10-22 14:07:33"
     },
     {
       "company_name": "Paras Healthcare Ltd",
@@ -1355,11 +1355,31 @@
       "invested": "14553",
       "listing_price": "",
       "output": "",
-      "total_subsc": "",
+      "total_subsc": "0",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/parashealthcare/PHL01",
-      "last_updated_ist": "2026-10-21 14:05:04"
+      "last_updated_ist": "2026-10-22 14:07:33"
+    },
+    {
+      "company_name": "EAAA India Alternatives Ltd",
+      "applied": "",
+      "got_ipo": "",
+      "ipo_status": "Upcoming",
+      "open_date": "Oct 26, 2026",
+      "close_date": "Oct 28, 2026",
+      "allotment_date": "Oct 29, 2026",
+      "listing_date": "Nov 02, 2026",
+      "lot_size": "9",
+      "price_band": "1585-1665",
+      "invested": "14985",
+      "listing_price": "",
+      "output": "",
+      "total_subsc": "",
+      "listing_gain": "",
+      "listing_gain%": "",
+      "source_url": "https://www.moneycontrol.com/ipo/eaaaindiaalternativesltd/EIA",
+      "last_updated_ist": "2026-10-22 14:07:33"
     },
     {
       "company_name": "BLS Polymers Ltd",
@@ -1379,7 +1399,27 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/blspolymersltd/BPL11",
-      "last_updated_ist": "2026-10-21 14:05:04"
+      "last_updated_ist": "2026-10-22 14:07:33"
+    },
+    {
+      "company_name": "SFC Environmental Technologies Ltd",
+      "applied": "",
+      "got_ipo": "",
+      "ipo_status": "Upcoming",
+      "open_date": "Oct 27, 2026",
+      "close_date": "Oct 29, 2026",
+      "allotment_date": "Oct 30, 2026",
+      "listing_date": "Nov 03, 2026",
+      "lot_size": "45",
+      "price_band": "313-330",
+      "invested": "14850",
+      "listing_price": "",
+      "output": "",
+      "total_subsc": "",
+      "listing_gain": "",
+      "listing_gain%": "",
+      "source_url": "https://www.moneycontrol.com/ipo/sfcenvironmentaltechnologiesltd/SETL",
+      "last_updated_ist": "2026-10-22 14:07:33"
     },
     {
       "company_name": "Complete Sports and Management India Ltd",
