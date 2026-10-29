@@ -1,5 +1,5 @@
 {
-  "count": 98,
+  "count": 99,
   "rows": [
     {
       "company_name": "Juniper Green Energy",
@@ -1259,7 +1259,7 @@
       "listing_gain": "0",
       "listing_gain%": "0",
       "source_url": "https://www.moneycontrol.com/ipo/engineering-industrial-equipments/bonfigliolitransmissions/BTL04",
-      "last_updated_ist": "2026-10-28 15:10:36"
+      "last_updated_ist": "2026-10-29 15:28:48"
     },
     {
       "company_name": "Sahajanand Medical Technologies Ltd",
@@ -1279,7 +1279,7 @@
       "listing_gain": "1161",
       "listing_gain%": "8",
       "source_url": "https://www.moneycontrol.com/ipo/medical-equipmentsuppliesaccessories/sahajanandmedicaltechnologies/SMTL",
-      "last_updated_ist": "2026-10-28 15:10:36"
+      "last_updated_ist": "2026-10-29 15:28:48"
     },
     {
       "company_name": "Tonbo Imaging India Ltd",
@@ -1299,7 +1299,7 @@
       "listing_gain": "9660",
       "listing_gain%": "66",
       "source_url": "https://www.moneycontrol.com/ipo/defence/tonboimagingindia/TIIL",
-      "last_updated_ist": "2026-10-28 15:10:36"
+      "last_updated_ist": "2026-10-29 15:28:48"
     },
     {
       "company_name": "Zetwerk Manufacturing Businesses Ltd",
@@ -1319,7 +1319,7 @@
       "listing_gain": "792",
       "listing_gain%": "5",
       "source_url": "https://www.moneycontrol.com/ipo/engineering-industrial-equipments/zetwerkmanufacturingbusinesses/ZMBL",
-      "last_updated_ist": "2026-10-28 15:10:36"
+      "last_updated_ist": "2026-10-29 15:28:48"
     },
     {
       "company_name": "Jio Platforms Ltd",
@@ -1333,13 +1333,13 @@
       "lot_size": "12",
       "price_band": "1119",
       "invested": "13428",
-      "listing_price": "",
-      "output": "",
+      "listing_price": "1358",
+      "output": "16296",
       "total_subsc": "22",
-      "listing_gain": "",
-      "listing_gain%": "",
+      "listing_gain": "2868",
+      "listing_gain%": "21",
       "source_url": "https://www.moneycontrol.com/ipo/telecommunication-service-provider/jioplatforms/JPL",
-      "last_updated_ist": "2026-10-28 15:10:36"
+      "last_updated_ist": "2026-10-29 15:28:48"
     },
     {
       "company_name": "Paras Healthcare Ltd",
@@ -1353,19 +1353,19 @@
       "lot_size": "21",
       "price_band": "693",
       "invested": "14553",
-      "listing_price": "",
-      "output": "",
+      "listing_price": "720",
+      "output": "15120",
       "total_subsc": "2",
-      "listing_gain": "",
-      "listing_gain%": "",
+      "listing_gain": "567",
+      "listing_gain%": "4",
       "source_url": "https://www.moneycontrol.com/ipo/hospitalhealthcare-services/parashealthcare/PHL01",
-      "last_updated_ist": "2026-10-28 15:10:36"
+      "last_updated_ist": "2026-10-29 15:28:48"
     },
     {
       "company_name": "EAAA India Alternatives Ltd",
       "applied": "",
       "got_ipo": "",
-      "ipo_status": "Open",
+      "ipo_status": "Closed",
       "open_date": "Oct 26, 2026",
       "close_date": "Oct 28, 2026",
       "allotment_date": "Oct 29, 2026",
@@ -1375,11 +1375,11 @@
       "invested": "14985",
       "listing_price": "",
       "output": "",
-      "total_subsc": "2",
+      "total_subsc": "5",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/eaaaindiaalternativesltd/EIA",
-      "last_updated_ist": "2026-10-28 15:10:36"
+      "last_updated_ist": "2026-10-29 15:28:48"
     },
     {
       "company_name": "BLS Polymers Ltd",
@@ -1395,11 +1395,11 @@
       "invested": "15000",
       "listing_price": "",
       "output": "",
-      "total_subsc": "24",
+      "total_subsc": "94",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/blspolymersltd/BPL11",
-      "last_updated_ist": "2026-10-28 15:10:36"
+      "last_updated_ist": "2026-10-29 15:28:48"
     },
     {
       "company_name": "SFC Environmental Technologies Ltd",
@@ -1415,11 +1415,11 @@
       "invested": "14850",
       "listing_price": "",
       "output": "",
-      "total_subsc": "0",
+      "total_subsc": "1",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/sfcenvironmentaltechnologiesltd/SETL",
-      "last_updated_ist": "2026-10-28 15:10:36"
+      "last_updated_ist": "2026-10-29 15:28:48"
     },
     {
       "company_name": "M K Sons Fine Jewels Ltd",
@@ -1435,31 +1435,31 @@
       "invested": "14742",
       "listing_price": "",
       "output": "",
-      "total_subsc": "0",
+      "total_subsc": "1",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/mksonsfinejewelsltd/SFJ",
-      "last_updated_ist": "2026-10-28 15:10:36"
+      "last_updated_ist": "2026-10-29 15:28:48"
     },
     {
       "company_name": "Bombay Coated and Special Steels Ltd",
       "applied": "",
       "got_ipo": "",
-      "ipo_status": "Upcoming",
+      "ipo_status": "Open",
       "open_date": "Oct 29, 2026",
       "close_date": "Nov 02, 2026",
       "allotment_date": "Nov 03, 2026",
       "listing_date": "Nov 05, 2026",
       "lot_size": "182",
-      "price_band": "78-82",
+      "price_band": "82",
       "invested": "14924",
       "listing_price": "",
       "output": "",
-      "total_subsc": "",
+      "total_subsc": "2",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/bombaycoatedspecialsteelsltd/BCSSL",
-      "last_updated_ist": "2026-10-28 15:10:36"
+      "last_updated_ist": "2026-10-29 15:28:48"
     },
     {
       "company_name": "Antala Industries Ltd",
@@ -1960,6 +1960,26 @@
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/vectrasenproconltd/VEL04",
       "last_updated_ist": "2026-10-28 15:10:36"
+    },
+    {
+      "company_name": "Vedant Poly Fabs Ltd",
+      "applied": "",
+      "got_ipo": "",
+      "ipo_status": "Upcoming",
+      "open_date": "Nov 02, 2026",
+      "close_date": "Nov 04, 2026",
+      "allotment_date": "Nov 05, 2026",
+      "listing_date": "",
+      "lot_size": "",
+      "price_band": "88-94",
+      "invested": "",
+      "listing_price": "",
+      "output": "",
+      "total_subsc": "",
+      "listing_gain": "",
+      "listing_gain%": "",
+      "source_url": "https://www.moneycontrol.com/ipo/vedantpolyfabsltd/VPF02",
+      "last_updated_ist": "2026-10-29 15:28:48"
     }
   ]
 }
