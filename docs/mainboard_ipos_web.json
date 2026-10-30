@@ -1259,7 +1259,7 @@
       "listing_gain": "0",
       "listing_gain%": "0",
       "source_url": "https://www.moneycontrol.com/ipo/engineering-industrial-equipments/bonfigliolitransmissions/BTL04",
-      "last_updated_ist": "2026-10-29 15:28:48"
+      "last_updated_ist": "2026-10-30 15:31:45"
     },
     {
       "company_name": "Sahajanand Medical Technologies Ltd",
@@ -1319,7 +1319,7 @@
       "listing_gain": "792",
       "listing_gain%": "5",
       "source_url": "https://www.moneycontrol.com/ipo/engineering-industrial-equipments/zetwerkmanufacturingbusinesses/ZMBL",
-      "last_updated_ist": "2026-10-29 15:28:48"
+      "last_updated_ist": "2026-10-30 15:31:45"
     },
     {
       "company_name": "Jio Platforms Ltd",
@@ -1339,7 +1339,7 @@
       "listing_gain": "2868",
       "listing_gain%": "21",
       "source_url": "https://www.moneycontrol.com/ipo/telecommunication-service-provider/jioplatforms/JPL",
-      "last_updated_ist": "2026-10-29 15:28:48"
+      "last_updated_ist": "2026-10-30 15:31:45"
     },
     {
       "company_name": "Paras Healthcare Ltd",
@@ -1359,7 +1359,7 @@
       "listing_gain": "567",
       "listing_gain%": "4",
       "source_url": "https://www.moneycontrol.com/ipo/hospitalhealthcare-services/parashealthcare/PHL01",
-      "last_updated_ist": "2026-10-29 15:28:48"
+      "last_updated_ist": "2026-10-30 15:31:45"
     },
     {
       "company_name": "EAAA India Alternatives Ltd",
@@ -1379,13 +1379,13 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/eaaaindiaalternativesltd/EIA",
-      "last_updated_ist": "2026-10-29 15:28:48"
+      "last_updated_ist": "2026-10-30 15:31:45"
     },
     {
       "company_name": "BLS Polymers Ltd",
       "applied": "",
       "got_ipo": "",
-      "ipo_status": "Open",
+      "ipo_status": "Closed",
       "open_date": "Oct 27, 2026",
       "close_date": "Oct 29, 2026",
       "allotment_date": "Oct 30, 2026",
@@ -1395,17 +1395,17 @@
       "invested": "15000",
       "listing_price": "",
       "output": "",
-      "total_subsc": "94",
+      "total_subsc": "241",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/blspolymersltd/BPL11",
-      "last_updated_ist": "2026-10-29 15:28:48"
+      "last_updated_ist": "2026-10-30 15:31:45"
     },
     {
       "company_name": "SFC Environmental Technologies Ltd",
       "applied": "",
       "got_ipo": "",
-      "ipo_status": "Open",
+      "ipo_status": "Closed",
       "open_date": "Oct 27, 2026",
       "close_date": "Oct 29, 2026",
       "allotment_date": "Oct 30, 2026",
@@ -1415,11 +1415,11 @@
       "invested": "14850",
       "listing_price": "",
       "output": "",
-      "total_subsc": "1",
+      "total_subsc": "9",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/sfcenvironmentaltechnologiesltd/SETL",
-      "last_updated_ist": "2026-10-29 15:28:48"
+      "last_updated_ist": "2026-10-30 15:31:45"
     },
     {
       "company_name": "M K Sons Fine Jewels Ltd",
@@ -1439,7 +1439,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/mksonsfinejewelsltd/SFJ",
-      "last_updated_ist": "2026-10-29 15:28:48"
+      "last_updated_ist": "2026-10-30 15:31:45"
     },
     {
       "company_name": "Bombay Coated and Special Steels Ltd",
@@ -1455,11 +1455,11 @@
       "invested": "14924",
       "listing_price": "",
       "output": "",
-      "total_subsc": "2",
+      "total_subsc": "3",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/bombaycoatedspecialsteelsltd/BCSSL",
-      "last_updated_ist": "2026-10-29 15:28:48"
+      "last_updated_ist": "2026-10-30 15:31:45"
     },
     {
       "company_name": "Antala Industries Ltd",
@@ -1970,9 +1970,9 @@
       "close_date": "Nov 04, 2026",
       "allotment_date": "Nov 05, 2026",
       "listing_date": "",
-      "lot_size": "",
+      "lot_size": "1200",
       "price_band": "88-94",
-      "invested": "",
+      "invested": "112800",
       "listing_price": "",
       "output": "",
       "total_subsc": "",
