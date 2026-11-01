@@ -5,7 +5,7 @@
       "isApp": false,
       "appSource": "web",
       "darkMode": false,
-      "country": "IN",
+      "country": "US",
       "data": [],
       "ipoData": {
         "open_Upcoming": [
@@ -199,14 +199,14 @@
             "pdfFileLink": "https://images.moneycontrol.com/news_html_files/pdffiles/Oct2026/integris-medtech.pdf"
           },
           {
-            "equityName": "Hunger Pangs Limited",
-            "date": "21-Oct-2026",
-            "pdfFileLink": "https://images.moneycontrol.com/news_html_files/pdffiles/Oct2026/hunger-pangs.pdf"
-          },
-          {
             "equityName": "Tablespace Technologies Limited",
             "date": "21-Oct-2026",
             "pdfFileLink": "https://images.moneycontrol.com/news_html_files/pdffiles/Oct2026/tablespace-technologies.pdf"
+          },
+          {
+            "equityName": "Hunger Pangs Limited",
+            "date": "21-Oct-2026",
+            "pdfFileLink": "https://images.moneycontrol.com/news_html_files/pdffiles/Oct2026/hunger-pangs.pdf"
           },
           {
             "equityName": "Paramotor Digital Technology Limited",
