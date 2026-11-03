@@ -1359,7 +1359,7 @@
       "listing_gain": "567",
       "listing_gain%": "4",
       "source_url": "https://www.moneycontrol.com/ipo/hospitalhealthcare-services/parashealthcare/PHL01",
-      "last_updated_ist": "2026-11-02 16:38:41"
+      "last_updated_ist": "2026-11-03 16:23:34"
     },
     {
       "company_name": "EAAA India Alternatives Ltd",
@@ -1373,19 +1373,19 @@
       "lot_size": "9",
       "price_band": "1665",
       "invested": "14985",
-      "listing_price": "",
-      "output": "",
+      "listing_price": "1676",
+      "output": "15084",
       "total_subsc": "5",
-      "listing_gain": "",
-      "listing_gain%": "",
+      "listing_gain": "99",
+      "listing_gain%": "1",
       "source_url": "https://www.moneycontrol.com/ipo/miscellaneous/eaaaindiaalternatives/EIA",
-      "last_updated_ist": "2026-11-02 16:38:41"
+      "last_updated_ist": "2026-11-03 16:23:34"
     },
     {
       "company_name": "BLS Polymers Ltd",
       "applied": "",
       "got_ipo": "",
-      "ipo_status": "Closed",
+      "ipo_status": "Listed",
       "open_date": "Oct 27, 2026",
       "close_date": "Oct 29, 2026",
       "allotment_date": "Oct 30, 2026",
@@ -1398,14 +1398,14 @@
       "total_subsc": "241",
       "listing_gain": "",
       "listing_gain%": "",
-      "source_url": "https://www.moneycontrol.com/ipo/blspolymersltd/BPL11",
-      "last_updated_ist": "2026-11-02 16:38:41"
+      "source_url": "https://www.moneycontrol.com/ipo/miscellaneous/blspolymers/BPL11",
+      "last_updated_ist": "2026-11-03 16:23:34"
     },
     {
       "company_name": "SFC Environmental Technologies Ltd",
       "applied": "",
       "got_ipo": "",
-      "ipo_status": "Closed",
+      "ipo_status": "Listed",
       "open_date": "Oct 27, 2026",
       "close_date": "Oct 29, 2026",
       "allotment_date": "Oct 30, 2026",
@@ -1418,8 +1418,8 @@
       "total_subsc": "9",
       "listing_gain": "",
       "listing_gain%": "",
-      "source_url": "https://www.moneycontrol.com/ipo/sfcenvironmentaltechnologiesltd/SETL",
-      "last_updated_ist": "2026-11-02 16:38:41"
+      "source_url": "https://www.moneycontrol.com/ipo/miscellaneous/sfcenvironmentaltechnologies/SETL",
+      "last_updated_ist": "2026-11-03 16:23:34"
     },
     {
       "company_name": "M K Sons Fine Jewels Ltd",
@@ -1439,13 +1439,13 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/mksonsfinejewelsltd/SFJ",
-      "last_updated_ist": "2026-11-02 16:38:41"
+      "last_updated_ist": "2026-11-03 16:23:34"
     },
     {
       "company_name": "Bombay Coated and Special Steels Ltd",
       "applied": "",
       "got_ipo": "",
-      "ipo_status": "Open",
+      "ipo_status": "Closed",
       "open_date": "Oct 29, 2026",
       "close_date": "Nov 02, 2026",
       "allotment_date": "Nov 03, 2026",
@@ -1455,11 +1455,11 @@
       "invested": "14924",
       "listing_price": "",
       "output": "",
-      "total_subsc": "21",
+      "total_subsc": "61",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/bombaycoatedspecialsteelsltd/BCSSL",
-      "last_updated_ist": "2026-11-02 16:38:41"
+      "last_updated_ist": "2026-11-03 16:23:34"
     },
     {
       "company_name": "Antala Industries Ltd",
