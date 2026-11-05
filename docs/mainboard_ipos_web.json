@@ -1393,13 +1393,13 @@
       "lot_size": "100",
       "price_band": "150",
       "invested": "15000",
-      "listing_price": "",
-      "output": "",
+      "listing_price": "248",
+      "output": "24800",
       "total_subsc": "241",
-      "listing_gain": "",
-      "listing_gain%": "",
+      "listing_gain": "9800",
+      "listing_gain%": "65",
       "source_url": "https://www.moneycontrol.com/ipo/miscellaneous/blspolymers/BPL11",
-      "last_updated_ist": "2026-11-03 16:23:34"
+      "last_updated_ist": "2026-11-05 16:26:59"
     },
     {
       "company_name": "SFC Environmental Technologies Ltd",
@@ -1425,7 +1425,7 @@
       "company_name": "M K Sons Fine Jewels Ltd",
       "applied": "",
       "got_ipo": "",
-      "ipo_status": "Closed",
+      "ipo_status": "Listed",
       "open_date": "Oct 28, 2026",
       "close_date": "Oct 30, 2026",
       "allotment_date": "Nov 02, 2026",
@@ -1433,19 +1433,19 @@
       "lot_size": "91",
       "price_band": "162",
       "invested": "14742",
-      "listing_price": "",
-      "output": "",
+      "listing_price": "171",
+      "output": "15561",
       "total_subsc": "5",
-      "listing_gain": "",
-      "listing_gain%": "",
-      "source_url": "https://www.moneycontrol.com/ipo/mksonsfinejewelsltd/SFJ",
-      "last_updated_ist": "2026-11-03 16:23:34"
+      "listing_gain": "819",
+      "listing_gain%": "6",
+      "source_url": "https://www.moneycontrol.com/ipo/diamondjewellery/mksonsfinejewels/SFJ",
+      "last_updated_ist": "2026-11-05 16:26:59"
     },
     {
       "company_name": "Bombay Coated and Special Steels Ltd",
       "applied": "",
       "got_ipo": "",
-      "ipo_status": "Closed",
+      "ipo_status": "Listed",
       "open_date": "Oct 29, 2026",
       "close_date": "Nov 02, 2026",
       "allotment_date": "Nov 03, 2026",
@@ -1458,8 +1458,8 @@
       "total_subsc": "61",
       "listing_gain": "",
       "listing_gain%": "",
-      "source_url": "https://www.moneycontrol.com/ipo/bombaycoatedspecialsteelsltd/BCSSL",
-      "last_updated_ist": "2026-11-03 16:23:34"
+      "source_url": "https://www.moneycontrol.com/ipo/ironsteel/bombaycoatedspecialsteels/BCSSL",
+      "last_updated_ist": "2026-11-05 16:26:59"
     },
     {
       "company_name": "Antala Industries Ltd",
