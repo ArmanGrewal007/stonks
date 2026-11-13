@@ -1,5 +1,5 @@
 {
-  "count": 99,
+  "count": 101,
   "rows": [
     {
       "company_name": "Juniper Green Energy",
@@ -1562,6 +1562,26 @@
       "last_updated_ist": "2026-08-10 22:43:12"
     },
     {
+      "company_name": "Crystal Crop Protection Ltd",
+      "applied": "",
+      "got_ipo": "",
+      "ipo_status": "Upcoming",
+      "open_date": "Nov 18, 2026",
+      "close_date": "Nov 20, 2026",
+      "allotment_date": "Nov 23, 2026",
+      "listing_date": "",
+      "lot_size": "",
+      "price_band": "259-272",
+      "invested": "",
+      "listing_price": "",
+      "output": "",
+      "total_subsc": "",
+      "listing_gain": "",
+      "listing_gain%": "",
+      "source_url": "https://www.moneycontrol.com/ipo/crystalcropprotectionltd/CCP02",
+      "last_updated_ist": "2026-11-13 16:29:22"
+    },
+    {
       "company_name": "Dove Soft Ltd",
       "applied": "",
       "got_ipo": "",
@@ -1980,6 +2000,26 @@
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/vedantpolyfabsltd/VPF02",
       "last_updated_ist": "2026-10-29 15:28:48"
+    },
+    {
+      "company_name": "Watrana Rentals Ltd",
+      "applied": "",
+      "got_ipo": "",
+      "ipo_status": "Upcoming",
+      "open_date": "Nov 19, 2026",
+      "close_date": "Nov 23, 2026",
+      "allotment_date": "Nov 25, 2026",
+      "listing_date": "",
+      "lot_size": "",
+      "price_band": "232-245",
+      "invested": "",
+      "listing_price": "",
+      "output": "",
+      "total_subsc": "",
+      "listing_gain": "",
+      "listing_gain%": "",
+      "source_url": "https://www.moneycontrol.com/ipo/watranarentalsltd/WRL",
+      "last_updated_ist": "2026-11-13 16:29:22"
     }
   ]
 }
