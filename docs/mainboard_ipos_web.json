@@ -1,5 +1,5 @@
 {
-  "count": 101,
+  "count": 102,
   "rows": [
     {
       "company_name": "Juniper Green Energy",
@@ -1479,7 +1479,27 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/crystalcropprotectionltd/CCP02",
-      "last_updated_ist": "2026-11-15 16:24:35"
+      "last_updated_ist": "2026-11-16 16:49:48"
+    },
+    {
+      "company_name": "Mahanadi Coalfields Ltd",
+      "applied": "",
+      "got_ipo": "",
+      "ipo_status": "Upcoming",
+      "open_date": "Nov 19, 2026",
+      "close_date": "Nov 23, 2026",
+      "allotment_date": "Nov 25, 2026",
+      "listing_date": "Nov 27, 2026",
+      "lot_size": "110",
+      "price_band": "129-136",
+      "invested": "14960",
+      "listing_price": "",
+      "output": "",
+      "total_subsc": "",
+      "listing_gain": "",
+      "listing_gain%": "",
+      "source_url": "https://www.moneycontrol.com/ipo/mahanadicoalfieldsltd/MCL11",
+      "last_updated_ist": "2026-11-16 16:49:48"
     },
     {
       "company_name": "Antala Industries Ltd",
