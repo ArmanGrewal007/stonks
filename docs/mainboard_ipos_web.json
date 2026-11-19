@@ -1,5 +1,5 @@
 {
-  "count": 102,
+  "count": 103,
   "rows": [
     {
       "company_name": "Juniper Green Energy",
@@ -1475,31 +1475,31 @@
       "invested": "14960",
       "listing_price": "",
       "output": "",
-      "total_subsc": "1",
+      "total_subsc": "2",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/crystalcropprotectionltd/CCP02",
-      "last_updated_ist": "2026-11-18 17:13:12"
+      "last_updated_ist": "2026-11-19 17:10:40"
     },
     {
       "company_name": "Mahanadi Coalfields Ltd",
       "applied": "",
       "got_ipo": "",
-      "ipo_status": "Upcoming",
+      "ipo_status": "Open",
       "open_date": "Nov 19, 2026",
       "close_date": "Nov 23, 2026",
       "allotment_date": "Nov 25, 2026",
       "listing_date": "Nov 27, 2026",
       "lot_size": "110",
-      "price_band": "129-136",
+      "price_band": "136",
       "invested": "14960",
       "listing_price": "",
       "output": "",
-      "total_subsc": "",
+      "total_subsc": "0",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/mahanadicoalfieldsltd/MCL11",
-      "last_updated_ist": "2026-11-18 17:13:12"
+      "last_updated_ist": "2026-11-19 17:10:40"
     },
     {
       "company_name": "Antala Industries Ltd",
@@ -1880,6 +1880,26 @@
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/shantiinorganicsltd/SIL34",
       "last_updated_ist": "2026-08-25 09:29:52"
+    },
+    {
+      "company_name": "Shree Siddhivinayak Greentech Industries Ltd",
+      "applied": "",
+      "got_ipo": "",
+      "ipo_status": "Upcoming",
+      "open_date": "Nov 25, 2026",
+      "close_date": "Nov 27, 2026",
+      "allotment_date": "Nov 30, 2026",
+      "listing_date": "",
+      "lot_size": "",
+      "price_band": "130-142",
+      "invested": "",
+      "listing_price": "",
+      "output": "",
+      "total_subsc": "",
+      "listing_gain": "",
+      "listing_gain%": "",
+      "source_url": "https://www.moneycontrol.com/ipo/shreesiddhivinayakgreentechindustriesltd/SSG02",
+      "last_updated_ist": "2026-11-19 17:10:40"
     },
     {
       "company_name": "Technocrats Plasma Systems Ltd",
