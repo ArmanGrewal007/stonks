@@ -1,5 +1,5 @@
 {
-  "count": 103,
+  "count": 105,
   "rows": [
     {
       "company_name": "Juniper Green Energy",
@@ -1479,13 +1479,13 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/crystalcropprotection/CCP02",
-      "last_updated_ist": "2026-11-22 16:55:59"
+      "last_updated_ist": "2026-11-24 07:42:32"
     },
     {
       "company_name": "Mahanadi Coalfields Ltd",
       "applied": "",
       "got_ipo": "",
-      "ipo_status": "Open",
+      "ipo_status": "Closed",
       "open_date": "Nov 19, 2026",
       "close_date": "Nov 23, 2026",
       "allotment_date": "Nov 25, 2026",
@@ -1495,11 +1495,51 @@
       "invested": "14960",
       "listing_price": "",
       "output": "",
-      "total_subsc": "0",
+      "total_subsc": "2",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/mahanadicoalfieldsltd/MCL11",
-      "last_updated_ist": "2026-11-22 16:55:59"
+      "last_updated_ist": "2026-11-24 07:42:32"
+    },
+    {
+      "company_name": "Foodlink F&B Holdings India Ltd",
+      "applied": "",
+      "got_ipo": "",
+      "ipo_status": "Upcoming",
+      "open_date": "Nov 26, 2026",
+      "close_date": "Nov 30, 2026",
+      "allotment_date": "Dec 01, 2026",
+      "listing_date": "Dec 03, 2026",
+      "lot_size": "78",
+      "price_band": "181-191",
+      "invested": "14898",
+      "listing_price": "",
+      "output": "",
+      "total_subsc": "",
+      "listing_gain": "",
+      "listing_gain%": "",
+      "source_url": "https://www.moneycontrol.com/ipo/foodlinkfbholdingsindialtd/FFH",
+      "last_updated_ist": "2026-11-24 07:42:32"
+    },
+    {
+      "company_name": "Matangi Rubber Ltd",
+      "applied": "",
+      "got_ipo": "",
+      "ipo_status": "Upcoming",
+      "open_date": "Dec 01, 2026",
+      "close_date": "Dec 03, 2026",
+      "allotment_date": "Dec 04, 2026",
+      "listing_date": "Dec 08, 2026",
+      "lot_size": "87",
+      "price_band": "163-172",
+      "invested": "14964",
+      "listing_price": "",
+      "output": "",
+      "total_subsc": "",
+      "listing_gain": "",
+      "listing_gain%": "",
+      "source_url": "https://www.moneycontrol.com/ipo/matangirubberltd/MRL01",
+      "last_updated_ist": "2026-11-24 07:42:32"
     },
     {
       "company_name": "Antala Industries Ltd",
