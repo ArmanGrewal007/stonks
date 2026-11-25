@@ -1,5 +1,5 @@
 {
-  "count": 105,
+  "count": 106,
   "rows": [
     {
       "company_name": "Juniper Green Energy",
@@ -1479,7 +1479,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/crystalcropprotection/CCP02",
-      "last_updated_ist": "2026-11-24 19:13:58"
+      "last_updated_ist": "2026-11-25 18:27:03"
     },
     {
       "company_name": "Mahanadi Coalfields Ltd",
@@ -1499,7 +1499,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/mahanadicoalfieldsltd/MCL11",
-      "last_updated_ist": "2026-11-24 19:13:58"
+      "last_updated_ist": "2026-11-25 18:27:03"
     },
     {
       "company_name": "Foodlink F&B Holdings India Ltd",
@@ -1518,8 +1518,8 @@
       "total_subsc": "",
       "listing_gain": "",
       "listing_gain%": "",
-      "source_url": "https://www.moneycontrol.com/ipo/foodlinkfbholdingsindialtd/FFH",
-      "last_updated_ist": "2026-11-24 19:13:58"
+      "source_url": "https://www.moneycontrol.com/ipo/foodlinkfbholdingsindia/FFH",
+      "last_updated_ist": "2026-11-25 18:27:03"
     },
     {
       "company_name": "Matangi Rubber Ltd",
@@ -1539,7 +1539,27 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/matangirubberltd/MRL01",
-      "last_updated_ist": "2026-11-24 19:13:58"
+      "last_updated_ist": "2026-11-25 18:27:03"
+    },
+    {
+      "company_name": "Monomark Engineering India Ltd",
+      "applied": "",
+      "got_ipo": "",
+      "ipo_status": "Upcoming",
+      "open_date": "Dec 02, 2026",
+      "close_date": "Dec 04, 2026",
+      "allotment_date": "Dec 07, 2026",
+      "listing_date": "Dec 09, 2026",
+      "lot_size": "225",
+      "price_band": "60-65",
+      "invested": "14625",
+      "listing_price": "",
+      "output": "",
+      "total_subsc": "",
+      "listing_gain": "",
+      "listing_gain%": "",
+      "source_url": "https://www.moneycontrol.com/ipo/monomarkengineeringindialtd/MEI06",
+      "last_updated_ist": "2026-11-25 18:27:03"
     },
     {
       "company_name": "Antala Industries Ltd",
