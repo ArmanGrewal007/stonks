@@ -1465,7 +1465,7 @@
       "company_name": "Crystal Crop Protection Ltd",
       "applied": "",
       "got_ipo": "",
-      "ipo_status": "Closed",
+      "ipo_status": "Listed",
       "open_date": "Nov 18, 2026",
       "close_date": "Nov 20, 2026",
       "allotment_date": "Nov 23, 2026",
@@ -1478,8 +1478,8 @@
       "total_subsc": "17",
       "listing_gain": "",
       "listing_gain%": "",
-      "source_url": "https://www.moneycontrol.com/ipo/crystalcropprotection/CCP02",
-      "last_updated_ist": "2026-11-25 18:27:03"
+      "source_url": "https://www.moneycontrol.com/ipo/pesticidesagrochemicals/crystalcropprotection/CCP02",
+      "last_updated_ist": "2026-11-26 18:05:27"
     },
     {
       "company_name": "Mahanadi Coalfields Ltd",
@@ -1499,27 +1499,27 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/mahanadicoalfieldsltd/MCL11",
-      "last_updated_ist": "2026-11-25 18:27:03"
+      "last_updated_ist": "2026-11-26 18:05:27"
     },
     {
       "company_name": "Foodlink F&B Holdings India Ltd",
       "applied": "",
       "got_ipo": "",
-      "ipo_status": "Upcoming",
+      "ipo_status": "Open",
       "open_date": "Nov 26, 2026",
       "close_date": "Nov 30, 2026",
       "allotment_date": "Dec 01, 2026",
       "listing_date": "Dec 03, 2026",
       "lot_size": "78",
-      "price_band": "181-191",
+      "price_band": "191",
       "invested": "14898",
       "listing_price": "",
       "output": "",
-      "total_subsc": "",
+      "total_subsc": "0",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/foodlinkfbholdingsindia/FFH",
-      "last_updated_ist": "2026-11-25 18:27:03"
+      "last_updated_ist": "2026-11-26 18:05:27"
     },
     {
       "company_name": "Matangi Rubber Ltd",
@@ -1539,7 +1539,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/matangirubberltd/MRL01",
-      "last_updated_ist": "2026-11-25 18:27:03"
+      "last_updated_ist": "2026-11-26 18:05:27"
     },
     {
       "company_name": "Monomark Engineering India Ltd",
@@ -1559,7 +1559,7 @@
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/monomarkengineeringindialtd/MEI06",
-      "last_updated_ist": "2026-11-25 18:27:03"
+      "last_updated_ist": "2026-11-26 18:05:27"
     },
     {
       "company_name": "Antala Industries Ltd",
