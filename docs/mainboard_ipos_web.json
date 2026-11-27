@@ -1,5 +1,5 @@
 {
-  "count": 106,
+  "count": 107,
   "rows": [
     {
       "company_name": "Juniper Green Energy",
@@ -1473,19 +1473,19 @@
       "lot_size": "55",
       "price_band": "272",
       "invested": "14960",
-      "listing_price": "",
-      "output": "",
+      "listing_price": "278",
+      "output": "15290",
       "total_subsc": "17",
-      "listing_gain": "",
-      "listing_gain%": "",
+      "listing_gain": "330",
+      "listing_gain%": "2",
       "source_url": "https://www.moneycontrol.com/ipo/pesticidesagrochemicals/crystalcropprotection/CCP02",
-      "last_updated_ist": "2026-11-26 18:05:27"
+      "last_updated_ist": "2026-11-27 17:52:12"
     },
     {
       "company_name": "Mahanadi Coalfields Ltd",
       "applied": "",
       "got_ipo": "",
-      "ipo_status": "Closed",
+      "ipo_status": "Listed",
       "open_date": "Nov 19, 2026",
       "close_date": "Nov 23, 2026",
       "allotment_date": "Nov 25, 2026",
@@ -1498,8 +1498,8 @@
       "total_subsc": "2",
       "listing_gain": "",
       "listing_gain%": "",
-      "source_url": "https://www.moneycontrol.com/ipo/mahanadicoalfieldsltd/MCL11",
-      "last_updated_ist": "2026-11-26 18:05:27"
+      "source_url": "https://www.moneycontrol.com/ipo/coal/mahanadicoalfields/MCL11",
+      "last_updated_ist": "2026-11-27 17:52:12"
     },
     {
       "company_name": "Foodlink F&B Holdings India Ltd",
@@ -1515,11 +1515,11 @@
       "invested": "14898",
       "listing_price": "",
       "output": "",
-      "total_subsc": "0",
+      "total_subsc": "1",
       "listing_gain": "",
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/foodlinkfbholdingsindia/FFH",
-      "last_updated_ist": "2026-11-26 18:05:27"
+      "last_updated_ist": "2026-11-27 17:52:12"
     },
     {
       "company_name": "Matangi Rubber Ltd",
@@ -1538,8 +1538,8 @@
       "total_subsc": "",
       "listing_gain": "",
       "listing_gain%": "",
-      "source_url": "https://www.moneycontrol.com/ipo/matangirubberltd/MRL01",
-      "last_updated_ist": "2026-11-26 18:05:27"
+      "source_url": "https://www.moneycontrol.com/ipo/matangirubber/MRL01",
+      "last_updated_ist": "2026-11-27 17:52:12"
     },
     {
       "company_name": "Monomark Engineering India Ltd",
@@ -1558,8 +1558,8 @@
       "total_subsc": "",
       "listing_gain": "",
       "listing_gain%": "",
-      "source_url": "https://www.moneycontrol.com/ipo/monomarkengineeringindialtd/MEI06",
-      "last_updated_ist": "2026-11-26 18:05:27"
+      "source_url": "https://www.moneycontrol.com/ipo/monomarkengineeringindia/MEI06",
+      "last_updated_ist": "2026-11-27 17:52:12"
     },
     {
       "company_name": "Antala Industries Ltd",
@@ -1960,6 +1960,26 @@
       "listing_gain%": "",
       "source_url": "https://www.moneycontrol.com/ipo/shreesiddhivinayakgreentechindustriesltd/SSG02",
       "last_updated_ist": "2026-11-19 17:10:40"
+    },
+    {
+      "company_name": "Swara Baby Products Ltd",
+      "applied": "",
+      "got_ipo": "",
+      "ipo_status": "Upcoming",
+      "open_date": "Dec 02, 2026",
+      "close_date": "Dec 04, 2026",
+      "allotment_date": "Dec 07, 2026",
+      "listing_date": "",
+      "lot_size": "",
+      "price_band": "105-111",
+      "invested": "",
+      "listing_price": "",
+      "output": "",
+      "total_subsc": "",
+      "listing_gain": "",
+      "listing_gain%": "",
+      "source_url": "https://www.moneycontrol.com/ipo/swarababyproductsltd/SBP05",
+      "last_updated_ist": "2026-11-27 17:52:12"
     },
     {
       "company_name": "Technocrats Plasma Systems Ltd",
